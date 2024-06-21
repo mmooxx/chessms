@@ -1,2 +1,2 @@
-# seedsWorld
-期末实训种子世界小游戏
+# chessms
+期末实训chessms小游戏
