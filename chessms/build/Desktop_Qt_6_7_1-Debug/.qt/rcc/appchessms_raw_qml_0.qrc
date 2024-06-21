@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="/chessms/">
+    <file alias="Main.qml">/run/media/root/linux/实训/chessms/Main.qml</file>
+    <file alias="Images.qml">/run/media/root/linux/实训/chessms/Images.qml</file>
+    <file alias="GameWindow.qml">/run/media/root/linux/实训/chessms/GameWindow.qml</file>
+    <file alias="paintCtroller.js">/run/media/root/linux/实训/chessms/paintCtroller.js</file>
+    <file alias="Flower.qml">/run/media/root/linux/实训/chessms/Flower.qml</file>
+    <file alias="Chessms.qml">/run/media/root/linux/实训/chessms/Chessms.qml</file>
+    <file alias="Tree.qml">/run/media/root/linux/实训/chessms/Tree.qml</file>
+    <file alias="Grassland.qml">/run/media/root/linux/实训/chessms/Grassland.qml</file>
+    <file alias="ctroller.js">/run/media/root/linux/实训/chessms/ctroller.js</file>
+    <file alias="images/chessms.png">/run/media/root/linux/实训/chessms/images/chessms.png</file>
+    <file alias="images/flower01.png">/run/media/root/linux/实训/chessms/images/flower01.png</file>
+    <file alias="images/flower02.png">/run/media/root/linux/实训/chessms/images/flower02.png</file>
+    <file alias="images/flower03.png">/run/media/root/linux/实训/chessms/images/flower03.png</file>
+    <file alias="images/flower04.png">/run/media/root/linux/实训/chessms/images/flower04.png</file>
+    <file alias="images/grassland.png">/run/media/root/linux/实训/chessms/images/grassland.png</file>
+    <file alias="images/tree.png">/run/media/root/linux/实训/chessms/images/tree.png</file>
+  </qresource>
+</RCC>
+

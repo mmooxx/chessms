@@ -1,0 +1,11 @@
+module chessms
+typeinfo appchessms.qmltypes
+prefer :/chessms/
+Main 1.0 Main.qml
+Images 1.0 Images.qml
+GameWindow 1.0 GameWindow.qml
+Flower 1.0 Flower.qml
+Chessms 1.0 Chessms.qml
+Tree 1.0 Tree.qml
+Grassland 1.0 Grassland.qml
+

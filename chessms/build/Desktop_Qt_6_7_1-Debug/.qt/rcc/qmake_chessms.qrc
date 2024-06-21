@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/chessms">
+    <file alias="qmldir">/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/qmldir</file>
+  </qresource>
+</RCC>
+
