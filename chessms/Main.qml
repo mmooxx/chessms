@@ -39,6 +39,21 @@ ApplicationWindow {
         }
     }
 
+    // Item {
+    //     focus: true
+    //     Keys.onPressed: (event)=> {
+    //         if(event.key === Qt.Key_W) {
+    //             console.log("Signal W key pressed emitted")
+    //             chessms.y += 145;
+    //         }
+
+    //         if(event.key === Qt.Key_S) {
+    //             console.log("Signal S key pressed emitted")
+    //             chessms.y -= 145;
+    //         }
+    //     }
+    // }
+
     // menuBar: MenuBar {
     //     Menu {
     //         title: qsTr("File")
