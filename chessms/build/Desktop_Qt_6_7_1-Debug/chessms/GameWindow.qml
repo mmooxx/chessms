@@ -4,7 +4,7 @@ import "ctroller.js" as Ctroller
 import "paintCtroller.js" as Paint
 
 Window {
-    width: 1600
+    width: 1400
     height: 1000
     //visible: false
     title: qsTr("chessmsGame")
@@ -31,32 +31,72 @@ Window {
 
 
     Rectangle {
-        id: rect
+        id: ctrollerRect
             width: parent.width
             height: parent.height
+
+            property int chessmsW: 0
+            property int chessmsS: 0
+            property int chessmsA: 0
+            property int chessmsD: 0
 
             Canvas {
                 id: canvas
                 anchors.fill: parent
 
-                property var grasslandY: Array(28).fill(350)
+                property var grasslandY: Array(15).fill(350)
                 onPaint: {
                     timer.start();
                     var ctx = canvas.getContext("2d");
                     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-                    grasslandY = Ctroller.buildGrasslandY(grasslandY);
-                    for(var i = 0; i !== 28; i++) //绘制28张草地
-                    {
-                        console.log(grasslandY[i]);
-                        ctx.drawImage(grassland, grassland.x, grasslandY[i], grassland.width, grassland.height);
-                        grassland.x += 50; //x坐标
-                    }
-                    console.log(grassland.x);
-                    grassland.x -= 1400;
 
+                    for(var i = 0; i !== 15; i++) //绘制 14张草地
+                    {
+                        //console.log(grasslandY[i]);
+                        ctx.drawImage(grassland, grassland.x, grasslandY[i], grassland.width, grassland.height);
+                        grassland.x += 100; //x坐标
+                    }
+
+                    grassland.x -= 1505;
+                    if(grassland.x === -100)
+                    {
+                        grassland.x = 0;
+                        grasslandY = Ctroller.buildGrasslandY(grasslandY);
+                    }
+                    //console.log(grassland.x);
+
+
+                    if(flower.index == 27)
+                        flower.index = 0;
+                    else
+                        flower.index++;
                     flower.source = flower.images[flower.index];
                     ctx.drawImage(flower, flower.x, flower.y, flower.width, flower.height);
+
+                    if(ctrollerRect.chessmsW !== 0)
+                    {
+                        chessms.y -= 30;
+                        ctrollerRect.chessmsW--;
+                    }
+
+                    if(ctrollerRect.chessmsS !== 0)
+                    {
+                        chessms.y += 30;
+                        ctrollerRect.chessmsS--;
+                    }
+
+                    if(ctrollerRect.chessmsA !== 0)
+                    {
+                        chessms.x -= 20;
+                        ctrollerRect.chessmsA--;
+                    }
+
+                    if(ctrollerRect.chessmsD !== 0)
+                    {
+                        chessms.x += 20;
+                        ctrollerRect.chessmsD--;
+                    }
 
                     ctx.drawImage(chessms, chessms.x, chessms.y, chessms.width, chessms.height); //绘制chessms
 
@@ -72,10 +112,10 @@ Window {
                             repeat: true
                             onTriggered: {
                                 //imageIndex = (imageIndex + 1) % images.length;
-                                if(flower.index == 3)
-                                    flower.index = 0;
-                                else
-                                    flower.index++;
+                                // if(flower.index == 27)
+                                //     flower.index = 0;
+                                // else
+                                //     flower.index++;
 
                                 timer.stop();
                                 canvas.requestPaint();
@@ -86,60 +126,36 @@ Window {
             Keys.onPressed: (event)=> {
                                 if(event.key === Qt.Key_W) {
                                     console.log("Signal W key pressed emitted")
-                                    if(chessms.y !== 275)
-                                    chessms.y -= 145;
+                                    if(chessms.y !== 290 && chessmsW === 0)
+                                    chessmsW = 5;
                                 }
 
                                 if(event.key === Qt.Key_S) {
                                     console.log("Signal S key pressed emitted")
-                                    if(chessms.y !== 565)
-                                    chessms.y += 145;
+                                    if(chessms.y !== 590 && chessmsS === 0)
+                                    chessmsS = 5;
                                 }
 
                                 if(event.key === Qt.Key_A) {
                                     console.log("Signal S key pressed emitted")
-                                    if(chessms.x !== 0)
-                                    chessms.x -= 50;
+                                    if(chessms.x !== 0 && chessmsA === 0)
+                                    chessmsA = 5;
                                 }
 
                                 if(event.key === Qt.Key_D) {
                                     console.log("Signal S key pressed emitted")
-                                    if(chessms.x !== 1300)
-                                    chessms.x += 50;
+                                    if(chessms.x !== 1300 && chessmsD === 0)
+                                    chessmsD = 5;
                                 }
                             }
         }
-
-    // //signal wKeyPressed()
-    // onWPressed: {
-    //         console.log("Signal W key pressed emitted")
-    //     chessms.y += 145;
-    //     }
-
-    // //signal sKeyPressed()
-    // onSPressed: {
-    //         console.log("Signal Y key pressed emitted")
-    //     chessms.y -= 145;
-    //     }
-
-    // Keys.onPressed: {
-    //     if(event.key === Qt.Key_W) {
-    //         console.log("Signal W key pressed emitted")
-    //         chessms.y += 145;
-    //     }
-
-    //     if(event.key === Qt.Key_S) {
-    //         console.log("Signal S key pressed emitted")
-    //         chessms.y -= 145;
-    //     }
-    // }
 
     Button {
         id: stopGame
         text: "暂停/启动"
         width: 100
         height: 35
-        x: 1500
+        x: 1300
         y: 700
 
         onClicked: {
@@ -152,7 +168,7 @@ Window {
             }else {
                 stopGame.checked = false;
                 timer.start();
-                rect.focus = true;
+                ctrollerRect.focus = true;
             }
         }
     }

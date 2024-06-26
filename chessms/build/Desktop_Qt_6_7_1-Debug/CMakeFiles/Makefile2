@@ -105,7 +105,7 @@ CMakeFiles/appchessms.dir/all: CMakeFiles/appchessms_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appchessms.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 78
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/appchessms.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/appchessms.dir/rule
@@ -131,7 +131,7 @@ CMakeFiles/appchessms_qmltyperegistration.dir/all: CMakeFiles/appchessms_autogen
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appchessms_qmltyperegistration.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/appchessms_qmltyperegistration.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/appchessms_qmltyperegistration.dir/rule
@@ -157,7 +157,7 @@ CMakeFiles/all_qmltyperegistrations.dir/all: CMakeFiles/appchessms_qmltyperegist
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_qmltyperegistrations.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/all_qmltyperegistrations.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/all_qmltyperegistrations.dir/rule
@@ -183,7 +183,7 @@ CMakeFiles/appchessms_qmllint.dir/all: CMakeFiles/all_qmltyperegistrations.dir/a
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appchessms_qmllint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/appchessms_qmllint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/appchessms_qmllint.dir/rule
@@ -209,7 +209,7 @@ CMakeFiles/appchessms_qmllint_json.dir/all: CMakeFiles/all_qmltyperegistrations.
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appchessms_qmllint_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/appchessms_qmllint_json.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/appchessms_qmllint_json.dir/rule
@@ -235,7 +235,7 @@ CMakeFiles/appchessms_qmllint_module.dir/all: CMakeFiles/all_qmltyperegistration
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appchessms_qmllint_module.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/appchessms_qmllint_module.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/appchessms_qmllint_module.dir/rule
@@ -261,7 +261,7 @@ CMakeFiles/all_qmllint.dir/all: CMakeFiles/appchessms_qmllint.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_qmllint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/all_qmllint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/all_qmllint.dir/rule
@@ -287,7 +287,7 @@ CMakeFiles/all_qmllint_json.dir/all: CMakeFiles/appchessms_qmllint_json.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_qmllint_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/all_qmllint_json.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/all_qmllint_json.dir/rule
@@ -313,7 +313,7 @@ CMakeFiles/all_qmllint_module.dir/all: CMakeFiles/appchessms_qmllint_module.dir/
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_qmllint_module.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/all_qmllint_module.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/all_qmllint_module.dir/rule
@@ -334,12 +334,12 @@ CMakeFiles/all_qmllint_module.dir/clean:
 CMakeFiles/appchessms_tooling.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appchessms_tooling.dir/build.make CMakeFiles/appchessms_tooling.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appchessms_tooling.dir/build.make CMakeFiles/appchessms_tooling.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55 "Built target appchessms_tooling"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83 "Built target appchessms_tooling"
 .PHONY : CMakeFiles/appchessms_tooling.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appchessms_tooling.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 44
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/appchessms_tooling.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/appchessms_tooling.dir/rule
@@ -392,7 +392,7 @@ CMakeFiles/appchessms_autogen_timestamp_deps.dir/all: CMakeFiles/appchessms_qmli
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appchessms_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 45
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/appchessms_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/appchessms_autogen_timestamp_deps.dir/rule
@@ -418,7 +418,7 @@ CMakeFiles/appchessms_autogen.dir/all: CMakeFiles/appchessms_autogen_timestamp_d
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appchessms_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 46
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/appchessms_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/appchessms_autogen.dir/rule
