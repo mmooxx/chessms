@@ -120,35 +120,15 @@ chessms/appchessms.qmltypes: appchessms_qmltyperegistrations.cpp
 	/usr/bin/cmake -E make_directory /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
 	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /chessms/Main.qml -I /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/qmldir --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_chessms.qrc --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appchessms_raw_qml_0.qrc -o /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp /run/media/root/linux/实训/chessms/Main.qml
 
-.rcc/qmlcache/appchessms_Images_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
-.rcc/qmlcache/appchessms_Images_qml.cpp: /run/media/root/linux/实训/chessms/Images.qml
-.rcc/qmlcache/appchessms_Images_qml.cpp: .qt/rcc/qmake_chessms.qrc
-.rcc/qmlcache/appchessms_Images_qml.cpp: .qt/rcc/appchessms_raw_qml_0.qrc
-.rcc/qmlcache/appchessms_Images_qml.cpp: chessms/appchessms.qmltypes
-.rcc/qmlcache/appchessms_Images_qml.cpp: chessms/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/appchessms_Images_qml.cpp"
-	/usr/bin/cmake -E make_directory /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
-	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /chessms/Images.qml -I /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/qmldir --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_chessms.qrc --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appchessms_raw_qml_0.qrc -o /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp /run/media/root/linux/实训/chessms/Images.qml
-
 .rcc/qmlcache/appchessms_GameWindow_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
 .rcc/qmlcache/appchessms_GameWindow_qml.cpp: /run/media/root/linux/实训/chessms/GameWindow.qml
 .rcc/qmlcache/appchessms_GameWindow_qml.cpp: .qt/rcc/qmake_chessms.qrc
 .rcc/qmlcache/appchessms_GameWindow_qml.cpp: .qt/rcc/appchessms_raw_qml_0.qrc
 .rcc/qmlcache/appchessms_GameWindow_qml.cpp: chessms/appchessms.qmltypes
 .rcc/qmlcache/appchessms_GameWindow_qml.cpp: chessms/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/appchessms_GameWindow_qml.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/appchessms_GameWindow_qml.cpp"
 	/usr/bin/cmake -E make_directory /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
 	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /chessms/GameWindow.qml -I /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/qmldir --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_chessms.qrc --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appchessms_raw_qml_0.qrc -o /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_GameWindow_qml.cpp /run/media/root/linux/实训/chessms/GameWindow.qml
-
-.rcc/qmlcache/appchessms_paintCtroller_js.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
-.rcc/qmlcache/appchessms_paintCtroller_js.cpp: /run/media/root/linux/实训/chessms/paintCtroller.js
-.rcc/qmlcache/appchessms_paintCtroller_js.cpp: .qt/rcc/qmake_chessms.qrc
-.rcc/qmlcache/appchessms_paintCtroller_js.cpp: .qt/rcc/appchessms_raw_qml_0.qrc
-.rcc/qmlcache/appchessms_paintCtroller_js.cpp: chessms/appchessms.qmltypes
-.rcc/qmlcache/appchessms_paintCtroller_js.cpp: chessms/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating .rcc/qmlcache/appchessms_paintCtroller_js.cpp"
-	/usr/bin/cmake -E make_directory /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
-	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /chessms/paintCtroller.js -I /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/qmldir --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_chessms.qrc --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appchessms_raw_qml_0.qrc -o /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp /run/media/root/linux/实训/chessms/paintCtroller.js
 
 .rcc/qmlcache/appchessms_Flower_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
 .rcc/qmlcache/appchessms_Flower_qml.cpp: /run/media/root/linux/实训/chessms/Flower.qml
@@ -156,7 +136,7 @@ chessms/appchessms.qmltypes: appchessms_qmltyperegistrations.cpp
 .rcc/qmlcache/appchessms_Flower_qml.cpp: .qt/rcc/appchessms_raw_qml_0.qrc
 .rcc/qmlcache/appchessms_Flower_qml.cpp: chessms/appchessms.qmltypes
 .rcc/qmlcache/appchessms_Flower_qml.cpp: chessms/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating .rcc/qmlcache/appchessms_Flower_qml.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/appchessms_Flower_qml.cpp"
 	/usr/bin/cmake -E make_directory /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
 	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /chessms/Flower.qml -I /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/qmldir --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_chessms.qrc --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appchessms_raw_qml_0.qrc -o /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.cpp /run/media/root/linux/实训/chessms/Flower.qml
 
@@ -166,7 +146,7 @@ chessms/appchessms.qmltypes: appchessms_qmltyperegistrations.cpp
 .rcc/qmlcache/appchessms_Chessms_qml.cpp: .qt/rcc/appchessms_raw_qml_0.qrc
 .rcc/qmlcache/appchessms_Chessms_qml.cpp: chessms/appchessms.qmltypes
 .rcc/qmlcache/appchessms_Chessms_qml.cpp: chessms/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating .rcc/qmlcache/appchessms_Chessms_qml.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating .rcc/qmlcache/appchessms_Chessms_qml.cpp"
 	/usr/bin/cmake -E make_directory /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
 	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /chessms/Chessms.qml -I /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/qmldir --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_chessms.qrc --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appchessms_raw_qml_0.qrc -o /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.cpp /run/media/root/linux/实训/chessms/Chessms.qml
 
@@ -176,7 +156,7 @@ chessms/appchessms.qmltypes: appchessms_qmltyperegistrations.cpp
 .rcc/qmlcache/appchessms_Tree_qml.cpp: .qt/rcc/appchessms_raw_qml_0.qrc
 .rcc/qmlcache/appchessms_Tree_qml.cpp: chessms/appchessms.qmltypes
 .rcc/qmlcache/appchessms_Tree_qml.cpp: chessms/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating .rcc/qmlcache/appchessms_Tree_qml.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating .rcc/qmlcache/appchessms_Tree_qml.cpp"
 	/usr/bin/cmake -E make_directory /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
 	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /chessms/Tree.qml -I /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/qmldir --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_chessms.qrc --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appchessms_raw_qml_0.qrc -o /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.cpp /run/media/root/linux/实训/chessms/Tree.qml
 
@@ -186,7 +166,7 @@ chessms/appchessms.qmltypes: appchessms_qmltyperegistrations.cpp
 .rcc/qmlcache/appchessms_Grassland_qml.cpp: .qt/rcc/appchessms_raw_qml_0.qrc
 .rcc/qmlcache/appchessms_Grassland_qml.cpp: chessms/appchessms.qmltypes
 .rcc/qmlcache/appchessms_Grassland_qml.cpp: chessms/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating .rcc/qmlcache/appchessms_Grassland_qml.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating .rcc/qmlcache/appchessms_Grassland_qml.cpp"
 	/usr/bin/cmake -E make_directory /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
 	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /chessms/Grassland.qml -I /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/qmldir --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_chessms.qrc --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appchessms_raw_qml_0.qrc -o /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Grassland_qml.cpp /run/media/root/linux/实训/chessms/Grassland.qml
 
@@ -196,24 +176,18 @@ chessms/appchessms.qmltypes: appchessms_qmltyperegistrations.cpp
 .rcc/qmlcache/appchessms_ctroller_js.cpp: .qt/rcc/appchessms_raw_qml_0.qrc
 .rcc/qmlcache/appchessms_ctroller_js.cpp: chessms/appchessms.qmltypes
 .rcc/qmlcache/appchessms_ctroller_js.cpp: chessms/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating .rcc/qmlcache/appchessms_ctroller_js.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating .rcc/qmlcache/appchessms_ctroller_js.cpp"
 	/usr/bin/cmake -E make_directory /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
 	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /chessms/ctroller.js -I /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/qmldir --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_chessms.qrc --resource /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appchessms_raw_qml_0.qrc -o /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_ctroller_js.cpp /run/media/root/linux/实训/chessms/ctroller.js
 
 .qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/Main.qml
-.qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/Images.qml
 .qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/GameWindow.qml
-.qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/paintCtroller.js
 .qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/Flower.qml
 .qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/Chessms.qml
 .qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/Tree.qml
 .qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/Grassland.qml
 .qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/ctroller.js
 .qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/images/chessms.png
-.qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/images/flower01.png
-.qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/images/flower02.png
-.qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/images/flower03.png
-.qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/images/flower04.png
 .qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/images/grassland.png
 .qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/images/sakula_fall01.png
 .qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/images/sakula_fall02.png
@@ -246,22 +220,22 @@ chessms/appchessms.qmltypes: appchessms_qmltyperegistrations.cpp
 .qt/rcc/qrc_appchessms_raw_qml_0.cpp: /run/media/root/linux/实训/chessms/images/tree.png
 .qt/rcc/qrc_appchessms_raw_qml_0.cpp: .qt/rcc/appchessms_raw_qml_0.qrc
 .qt/rcc/qrc_appchessms_raw_qml_0.cpp: /opt/Qt/6.7.1/gcc_64/./libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Running rcc for resource appchessms_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Running rcc for resource appchessms_raw_qml_0"
 	/opt/Qt/6.7.1/gcc_64/libexec/rcc --output /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appchessms_raw_qml_0.cpp --name appchessms_raw_qml_0 /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appchessms_raw_qml_0.qrc --no-zstd
 
 meta_types/appchessms_json_file_list.txt: /opt/Qt/6.7.1/gcc_64/./libexec/cmake_automoc_parser
 meta_types/appchessms_json_file_list.txt: appchessms_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Running AUTOMOC file extraction for target appchessms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Running AUTOMOC file extraction for target appchessms"
 	/opt/Qt/6.7.1/gcc_64/libexec/cmake_automoc_parser --cmake-autogen-cache-file /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/appchessms_autogen.dir/ParseCache.txt --cmake-autogen-info-file /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/appchessms_autogen.dir/AutogenInfo.json --output-file-path /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/meta_types/appchessms_json_file_list.txt --timestamp-file-path /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/meta_types/appchessms_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/appchessms_autogen/include
 
 meta_types/qt6appchessms_debug_metatypes.json: meta_types/qt6appchessms_debug_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating meta_types/qt6appchessms_debug_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating meta_types/qt6appchessms_debug_metatypes.json"
 	/usr/bin/cmake -E true
 
 CMakeFiles/appchessms.dir/appchessms_autogen/mocs_compilation.cpp.o: CMakeFiles/appchessms.dir/flags.make
 CMakeFiles/appchessms.dir/appchessms_autogen/mocs_compilation.cpp.o: appchessms_autogen/mocs_compilation.cpp
 CMakeFiles/appchessms.dir/appchessms_autogen/mocs_compilation.cpp.o: CMakeFiles/appchessms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appchessms.dir/appchessms_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appchessms.dir/appchessms_autogen/mocs_compilation.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appchessms.dir/appchessms_autogen/mocs_compilation.cpp.o -MF CMakeFiles/appchessms.dir/appchessms_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/appchessms.dir/appchessms_autogen/mocs_compilation.cpp.o -c /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/appchessms_autogen/mocs_compilation.cpp
 
 CMakeFiles/appchessms.dir/appchessms_autogen/mocs_compilation.cpp.i: cmake_force
@@ -275,7 +249,7 @@ CMakeFiles/appchessms.dir/appchessms_autogen/mocs_compilation.cpp.s: cmake_force
 CMakeFiles/appchessms.dir/main.cpp.o: CMakeFiles/appchessms.dir/flags.make
 CMakeFiles/appchessms.dir/main.cpp.o: /run/media/root/linux/实训/chessms/main.cpp
 CMakeFiles/appchessms.dir/main.cpp.o: CMakeFiles/appchessms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appchessms.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appchessms.dir/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appchessms.dir/main.cpp.o -MF CMakeFiles/appchessms.dir/main.cpp.o.d -o CMakeFiles/appchessms.dir/main.cpp.o -c /run/media/root/linux/实训/chessms/main.cpp
 
 CMakeFiles/appchessms.dir/main.cpp.i: cmake_force
@@ -289,7 +263,7 @@ CMakeFiles/appchessms.dir/main.cpp.s: cmake_force
 CMakeFiles/appchessms.dir/appchessms_qmltyperegistrations.cpp.o: CMakeFiles/appchessms.dir/flags.make
 CMakeFiles/appchessms.dir/appchessms_qmltyperegistrations.cpp.o: appchessms_qmltyperegistrations.cpp
 CMakeFiles/appchessms.dir/appchessms_qmltyperegistrations.cpp.o: CMakeFiles/appchessms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/appchessms.dir/appchessms_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appchessms.dir/appchessms_qmltyperegistrations.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appchessms.dir/appchessms_qmltyperegistrations.cpp.o -MF CMakeFiles/appchessms.dir/appchessms_qmltyperegistrations.cpp.o.d -o CMakeFiles/appchessms.dir/appchessms_qmltyperegistrations.cpp.o -c /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/appchessms_qmltyperegistrations.cpp
 
 CMakeFiles/appchessms.dir/appchessms_qmltyperegistrations.cpp.i: cmake_force
@@ -303,7 +277,7 @@ CMakeFiles/appchessms.dir/appchessms_qmltyperegistrations.cpp.s: cmake_force
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_chessms.cpp.o: CMakeFiles/appchessms.dir/flags.make
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_chessms.cpp.o: .qt/rcc/qrc_qmake_chessms.cpp
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_chessms.cpp.o: CMakeFiles/appchessms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_chessms.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_chessms.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_chessms.cpp.o -MF CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_chessms.cpp.o.d -o CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_chessms.cpp.o -c /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_chessms.cpp
 
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_chessms.cpp.i: cmake_force
@@ -317,7 +291,7 @@ CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_chessms
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_qmlcache_loader.cpp.o: CMakeFiles/appchessms.dir/flags.make
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_qmlcache_loader.cpp.o: .rcc/qmlcache/appchessms_qmlcache_loader.cpp
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_qmlcache_loader.cpp.o: CMakeFiles/appchessms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_qmlcache_loader.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_qmlcache_loader.cpp.o -MF CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_qmlcache_loader.cpp.o.d -o CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_qmlcache_loader.cpp.o -c /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_qmlcache_loader.cpp
 
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_qmlcache_loader.cpp.i: cmake_force
@@ -331,7 +305,7 @@ CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp.o: CMakeFiles/appchessms.dir/flags.make
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp.o: .rcc/qmlcache/appchessms_Main_qml.cpp
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp.o: CMakeFiles/appchessms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp.o -MF CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp.o.d -o CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp.o -c /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp
 
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp.i: cmake_force
@@ -342,24 +316,10 @@ CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp -o CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp.s
 
-CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp.o: CMakeFiles/appchessms.dir/flags.make
-CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp.o: .rcc/qmlcache/appchessms_Images_qml.cpp
-CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp.o: CMakeFiles/appchessms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp.o -MF CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp.o.d -o CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp.o -c /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp
-
-CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp > CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp.i
-
-CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp -o CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp.s
-
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_GameWindow_qml.cpp.o: CMakeFiles/appchessms.dir/flags.make
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_GameWindow_qml.cpp.o: .rcc/qmlcache/appchessms_GameWindow_qml.cpp
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_GameWindow_qml.cpp.o: CMakeFiles/appchessms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_GameWindow_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_GameWindow_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_GameWindow_qml.cpp.o -MF CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_GameWindow_qml.cpp.o.d -o CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_GameWindow_qml.cpp.o -c /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_GameWindow_qml.cpp
 
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_GameWindow_qml.cpp.i: cmake_force
@@ -370,24 +330,10 @@ CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_GameWindow_qml.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_GameWindow_qml.cpp -o CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_GameWindow_qml.cpp.s
 
-CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp.o: CMakeFiles/appchessms.dir/flags.make
-CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp.o: .rcc/qmlcache/appchessms_paintCtroller_js.cpp
-CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp.o: CMakeFiles/appchessms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp.o -MF CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp.o.d -o CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp.o -c /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp
-
-CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp > CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp.i
-
-CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp -o CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp.s
-
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.cpp.o: CMakeFiles/appchessms.dir/flags.make
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.cpp.o: .rcc/qmlcache/appchessms_Flower_qml.cpp
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.cpp.o: CMakeFiles/appchessms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.cpp.o -MF CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.cpp.o.d -o CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.cpp.o -c /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.cpp
 
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.cpp.i: cmake_force
@@ -401,7 +347,7 @@ CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.cpp.o: CMakeFiles/appchessms.dir/flags.make
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.cpp.o: .rcc/qmlcache/appchessms_Chessms_qml.cpp
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.cpp.o: CMakeFiles/appchessms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.cpp.o -MF CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.cpp.o.d -o CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.cpp.o -c /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.cpp
 
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.cpp.i: cmake_force
@@ -415,7 +361,7 @@ CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.cpp.o: CMakeFiles/appchessms.dir/flags.make
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.cpp.o: .rcc/qmlcache/appchessms_Tree_qml.cpp
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.cpp.o: CMakeFiles/appchessms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.cpp.o -MF CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.cpp.o.d -o CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.cpp.o -c /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.cpp
 
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.cpp.i: cmake_force
@@ -429,7 +375,7 @@ CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Grassland_qml.cpp.o: CMakeFiles/appchessms.dir/flags.make
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Grassland_qml.cpp.o: .rcc/qmlcache/appchessms_Grassland_qml.cpp
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Grassland_qml.cpp.o: CMakeFiles/appchessms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Grassland_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Grassland_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Grassland_qml.cpp.o -MF CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Grassland_qml.cpp.o.d -o CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Grassland_qml.cpp.o -c /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Grassland_qml.cpp
 
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Grassland_qml.cpp.i: cmake_force
@@ -443,7 +389,7 @@ CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_ctroller_js.cpp.o: CMakeFiles/appchessms.dir/flags.make
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_ctroller_js.cpp.o: .rcc/qmlcache/appchessms_ctroller_js.cpp
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_ctroller_js.cpp.o: CMakeFiles/appchessms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_ctroller_js.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_ctroller_js.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_ctroller_js.cpp.o -MF CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_ctroller_js.cpp.o.d -o CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_ctroller_js.cpp.o -c /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_ctroller_js.cpp
 
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_ctroller_js.cpp.i: cmake_force
@@ -457,7 +403,7 @@ CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appchessms_raw_qml_0.cpp.o: CMakeFiles/appchessms.dir/flags.make
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appchessms_raw_qml_0.cpp.o: .qt/rcc/qrc_appchessms_raw_qml_0.cpp
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appchessms_raw_qml_0.cpp.o: CMakeFiles/appchessms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appchessms_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appchessms_raw_qml_0.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appchessms_raw_qml_0.cpp.o -MF CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appchessms_raw_qml_0.cpp.o.d -o CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appchessms_raw_qml_0.cpp.o -c /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appchessms_raw_qml_0.cpp
 
 CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appchessms_raw_qml_0.cpp.i: cmake_force
@@ -476,9 +422,7 @@ appchessms_OBJECTS = \
 "CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_chessms.cpp.o" \
 "CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_qmlcache_loader.cpp.o" \
 "CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp.o" \
-"CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp.o" \
 "CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_GameWindow_qml.cpp.o" \
-"CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp.o" \
 "CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.cpp.o" \
 "CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.cpp.o" \
 "CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.cpp.o" \
@@ -495,9 +439,7 @@ appchessms: CMakeFiles/appchessms.dir/appchessms_qmltyperegistrations.cpp.o
 appchessms: CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_chessms.cpp.o
 appchessms: CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_qmlcache_loader.cpp.o
 appchessms: CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp.o
-appchessms: CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Images_qml.cpp.o
 appchessms: CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_GameWindow_qml.cpp.o
-appchessms: CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_paintCtroller_js.cpp.o
 appchessms: CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.cpp.o
 appchessms: CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.cpp.o
 appchessms: CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.cpp.o
@@ -516,7 +458,7 @@ appchessms: /opt/Qt/6.7.1/gcc_64/lib/libQt6Core.so.6.7.1
 appchessms: /usr/lib/libGLX.so
 appchessms: /usr/lib/libOpenGL.so
 appchessms: CMakeFiles/appchessms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable appchessms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable appchessms"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/appchessms.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -533,11 +475,9 @@ CMakeFiles/appchessms.dir/depend: .rcc/qmlcache/appchessms_Chessms_qml.cpp
 CMakeFiles/appchessms.dir/depend: .rcc/qmlcache/appchessms_Flower_qml.cpp
 CMakeFiles/appchessms.dir/depend: .rcc/qmlcache/appchessms_GameWindow_qml.cpp
 CMakeFiles/appchessms.dir/depend: .rcc/qmlcache/appchessms_Grassland_qml.cpp
-CMakeFiles/appchessms.dir/depend: .rcc/qmlcache/appchessms_Images_qml.cpp
 CMakeFiles/appchessms.dir/depend: .rcc/qmlcache/appchessms_Main_qml.cpp
 CMakeFiles/appchessms.dir/depend: .rcc/qmlcache/appchessms_Tree_qml.cpp
 CMakeFiles/appchessms.dir/depend: .rcc/qmlcache/appchessms_ctroller_js.cpp
-CMakeFiles/appchessms.dir/depend: .rcc/qmlcache/appchessms_paintCtroller_js.cpp
 CMakeFiles/appchessms.dir/depend: .rcc/qmlcache/appchessms_qmlcache_loader.cpp
 CMakeFiles/appchessms.dir/depend: appchessms_qmltyperegistrations.cpp
 CMakeFiles/appchessms.dir/depend: chessms/appchessms.qmltypes

@@ -3,9 +3,7 @@
 --resource
 /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appchessms_raw_qml_0.qrc
 /chessms/Main.qml
-/chessms/Images.qml
 /chessms/GameWindow.qml
-/chessms/paintCtroller.js
 /chessms/Flower.qml
 /chessms/Chessms.qml
 /chessms/Tree.qml

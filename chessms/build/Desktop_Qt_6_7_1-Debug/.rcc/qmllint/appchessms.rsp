@@ -8,9 +8,7 @@
 --resource
 /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appchessms_raw_qml_0.qrc
 /run/media/root/linux/实训/chessms/Main.qml
-/run/media/root/linux/实训/chessms/Images.qml
 /run/media/root/linux/实训/chessms/GameWindow.qml
-/run/media/root/linux/实训/chessms/paintCtroller.js
 /run/media/root/linux/实训/chessms/Flower.qml
 /run/media/root/linux/实训/chessms/Chessms.qml
 /run/media/root/linux/实训/chessms/Tree.qml

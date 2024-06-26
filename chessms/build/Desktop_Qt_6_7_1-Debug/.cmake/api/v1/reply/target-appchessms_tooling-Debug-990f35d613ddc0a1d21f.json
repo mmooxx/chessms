@@ -75,15 +75,15 @@
 				3,
 				4,
 				5,
-				6,
-				7,
-				8
+				6
 			]
 		},
 		{
 			"name" : "Resources",
 			"sourceIndexes" : 
 			[
+				7,
+				8,
 				9,
 				10,
 				11,
@@ -112,19 +112,19 @@
 				34,
 				35,
 				36,
-				37,
-				38,
-				39,
-				40,
-				41,
-				42,
-				43
+				37
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
 				44,
 				45,
 				46,
@@ -156,19 +156,7 @@
 				72,
 				73,
 				74,
-				75,
-				76,
-				77,
-				78,
-				79,
-				80,
-				81,
-				82,
-				83,
-				84,
-				85,
-				86,
-				87
+				75
 			]
 		}
 	],
@@ -183,19 +171,7 @@
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/Images.qml",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/GameWindow.qml",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/paintCtroller.js",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -237,37 +213,55 @@
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/flower01.png",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/flower02.png",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/flower03.png",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/flower04.png",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/grassland.png",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/tree.png",
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall01.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall02.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall03.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall04.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall05.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall06.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall07.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall08.png",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -333,54 +327,6 @@
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall01.png",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall02.png",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall03.png",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall04.png",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall05.png",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall06.png",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall07.png",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall08.png",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall19.png",
 			"sourceGroupIndex" : 1
 		},
@@ -439,6 +385,12 @@
 			"sourceGroupIndex" : 1
 		},
 		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/tree.png",
+			"sourceGroupIndex" : 1
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/Main.qml.rule",
@@ -447,19 +399,7 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/Images.qml.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/GameWindow.qml.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/paintCtroller.js.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
@@ -501,37 +441,55 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/flower01.png.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/flower02.png.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/flower03.png.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/flower04.png.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/grassland.png.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/tree.png.rule",
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall01.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall02.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall03.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall04.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall05.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall06.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall07.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall08.png.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
@@ -597,54 +555,6 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall01.png.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall02.png.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall03.png.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall04.png.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall05.png.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall06.png.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall07.png.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall08.png.rule",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall19.png.rule",
 			"sourceGroupIndex" : 2
 		},
@@ -700,6 +610,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall28.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/tree.png.rule",
 			"sourceGroupIndex" : 2
 		}
 	],

@@ -1,4 +1,3 @@
-
 function buildGrasslandY(arr) {
     const values = [200, 350, 500];
     const randomIndex = Math.floor(Math.random() * values.length);
@@ -7,15 +6,22 @@ function buildGrasslandY(arr) {
     {
         arr[i] = arr[i + 1];
     }
-    if(arr[11] === arr[12] && arr[12] === arr[13])
+    if(arr[9] === arr[10] && arr[10] === arr[11] && arr[11] === arr[12] && arr[12] === arr[13])
     {
-        arr[14] = values[randomIndex];
+        if(arr[13] === 500 || arr[13] === 200)
+            arr[14] = 350;
+        else
+            arr[14] = values[randomIndex];
     }else {
         arr[14] = arr[13];
     }
 
     return arr;
 }
+
+// function returnGrasslandY(chessmsX, arr) {
+//     return arr[chessmsX / 100];
+// }
 
 // function ctrollerChessms(num, p) {
 //     if(num !== 0)

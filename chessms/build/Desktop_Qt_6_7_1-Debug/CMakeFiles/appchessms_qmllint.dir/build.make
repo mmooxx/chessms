@@ -71,9 +71,7 @@ include CMakeFiles/appchessms_qmllint.dir/progress.make
 
 CMakeFiles/appchessms_qmllint: /opt/Qt/6.7.1/gcc_64/bin/qmllint
 CMakeFiles/appchessms_qmllint: /run/media/root/linux/实训/chessms/Main.qml
-CMakeFiles/appchessms_qmllint: /run/media/root/linux/实训/chessms/Images.qml
 CMakeFiles/appchessms_qmllint: /run/media/root/linux/实训/chessms/GameWindow.qml
-CMakeFiles/appchessms_qmllint: /run/media/root/linux/实训/chessms/paintCtroller.js
 CMakeFiles/appchessms_qmllint: /run/media/root/linux/实训/chessms/Flower.qml
 CMakeFiles/appchessms_qmllint: /run/media/root/linux/实训/chessms/Chessms.qml
 CMakeFiles/appchessms_qmllint: /run/media/root/linux/实训/chessms/Tree.qml

@@ -21,11 +21,7 @@ qt_add_qml_module(
   Main.qml
   SOURCES
   QML_FILES
-  Images.qml
-  QML_FILES
   GameWindow.qml
-  QML_FILES
-  paintCtroller.js
   QML_FILES
   Flower.qml
   QML_FILES
@@ -38,10 +34,6 @@ qt_add_qml_module(
   ctroller.js
   RESOURCES
   images/chessms.png
-  images/flower01.png
-  images/flower02.png
-  images/flower03.png
-  images/flower04.png
   images/grassland.png
   images/sakula_fall01.png
   images/sakula_fall02.png

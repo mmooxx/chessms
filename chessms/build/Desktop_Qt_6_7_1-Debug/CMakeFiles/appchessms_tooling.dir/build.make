@@ -73,191 +73,162 @@ chessms/Main.qml: /run/media/root/linux/实训/chessms/Main.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying Main.qml to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/Main.qml"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/Main.qml /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/Main.qml
 
-chessms/Images.qml: /run/media/root/linux/实训/chessms/Images.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Copying Images.qml to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/Images.qml"
-	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/Images.qml /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/Images.qml
-
 chessms/GameWindow.qml: /run/media/root/linux/实训/chessms/GameWindow.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Copying GameWindow.qml to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/GameWindow.qml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Copying GameWindow.qml to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/GameWindow.qml"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/GameWindow.qml /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/GameWindow.qml
 
-chessms/paintCtroller.js: /run/media/root/linux/实训/chessms/paintCtroller.js
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Copying paintCtroller.js to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/paintCtroller.js"
-	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/paintCtroller.js /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/paintCtroller.js
-
 chessms/Flower.qml: /run/media/root/linux/实训/chessms/Flower.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Copying Flower.qml to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/Flower.qml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Copying Flower.qml to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/Flower.qml"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/Flower.qml /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/Flower.qml
 
 chessms/Chessms.qml: /run/media/root/linux/实训/chessms/Chessms.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Copying Chessms.qml to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/Chessms.qml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Copying Chessms.qml to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/Chessms.qml"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/Chessms.qml /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/Chessms.qml
 
 chessms/Tree.qml: /run/media/root/linux/实训/chessms/Tree.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Copying Tree.qml to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/Tree.qml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Copying Tree.qml to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/Tree.qml"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/Tree.qml /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/Tree.qml
 
 chessms/Grassland.qml: /run/media/root/linux/实训/chessms/Grassland.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Copying Grassland.qml to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/Grassland.qml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Copying Grassland.qml to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/Grassland.qml"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/Grassland.qml /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/Grassland.qml
 
 chessms/ctroller.js: /run/media/root/linux/实训/chessms/ctroller.js
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Copying ctroller.js to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/ctroller.js"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Copying ctroller.js to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/ctroller.js"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/ctroller.js /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/ctroller.js
 
 chessms/images/chessms.png: /run/media/root/linux/实训/chessms/images/chessms.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Copying images/chessms.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/chessms.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Copying images/chessms.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/chessms.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/chessms.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/chessms.png
 
-chessms/images/flower01.png: /run/media/root/linux/实训/chessms/images/flower01.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Copying images/flower01.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/flower01.png"
-	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/flower01.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/flower01.png
-
-chessms/images/flower02.png: /run/media/root/linux/实训/chessms/images/flower02.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Copying images/flower02.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/flower02.png"
-	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/flower02.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/flower02.png
-
-chessms/images/flower03.png: /run/media/root/linux/实训/chessms/images/flower03.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Copying images/flower03.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/flower03.png"
-	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/flower03.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/flower03.png
-
-chessms/images/flower04.png: /run/media/root/linux/实训/chessms/images/flower04.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Copying images/flower04.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/flower04.png"
-	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/flower04.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/flower04.png
-
 chessms/images/grassland.png: /run/media/root/linux/实训/chessms/images/grassland.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Copying images/grassland.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/grassland.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Copying images/grassland.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/grassland.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/grassland.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/grassland.png
 
 chessms/images/sakula_fall01.png: /run/media/root/linux/实训/chessms/images/sakula_fall01.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Copying images/sakula_fall01.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall01.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Copying images/sakula_fall01.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall01.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall01.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall01.png
 
 chessms/images/sakula_fall02.png: /run/media/root/linux/实训/chessms/images/sakula_fall02.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Copying images/sakula_fall02.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall02.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Copying images/sakula_fall02.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall02.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall02.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall02.png
 
 chessms/images/sakula_fall03.png: /run/media/root/linux/实训/chessms/images/sakula_fall03.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Copying images/sakula_fall03.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall03.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Copying images/sakula_fall03.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall03.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall03.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall03.png
 
 chessms/images/sakula_fall04.png: /run/media/root/linux/实训/chessms/images/sakula_fall04.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Copying images/sakula_fall04.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall04.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Copying images/sakula_fall04.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall04.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall04.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall04.png
 
 chessms/images/sakula_fall05.png: /run/media/root/linux/实训/chessms/images/sakula_fall05.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Copying images/sakula_fall05.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall05.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Copying images/sakula_fall05.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall05.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall05.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall05.png
 
 chessms/images/sakula_fall06.png: /run/media/root/linux/实训/chessms/images/sakula_fall06.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Copying images/sakula_fall06.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall06.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Copying images/sakula_fall06.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall06.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall06.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall06.png
 
 chessms/images/sakula_fall07.png: /run/media/root/linux/实训/chessms/images/sakula_fall07.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Copying images/sakula_fall07.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall07.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Copying images/sakula_fall07.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall07.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall07.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall07.png
 
 chessms/images/sakula_fall08.png: /run/media/root/linux/实训/chessms/images/sakula_fall08.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Copying images/sakula_fall08.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall08.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Copying images/sakula_fall08.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall08.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall08.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall08.png
 
 chessms/images/sakula_fall09.png: /run/media/root/linux/实训/chessms/images/sakula_fall09.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Copying images/sakula_fall09.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall09.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Copying images/sakula_fall09.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall09.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall09.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall09.png
 
 chessms/images/sakula_fall10.png: /run/media/root/linux/实训/chessms/images/sakula_fall10.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Copying images/sakula_fall10.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall10.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Copying images/sakula_fall10.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall10.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall10.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall10.png
 
 chessms/images/sakula_fall11.png: /run/media/root/linux/实训/chessms/images/sakula_fall11.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Copying images/sakula_fall11.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall11.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Copying images/sakula_fall11.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall11.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall11.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall11.png
 
 chessms/images/sakula_fall12.png: /run/media/root/linux/实训/chessms/images/sakula_fall12.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Copying images/sakula_fall12.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall12.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Copying images/sakula_fall12.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall12.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall12.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall12.png
 
 chessms/images/sakula_fall13.png: /run/media/root/linux/实训/chessms/images/sakula_fall13.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Copying images/sakula_fall13.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall13.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Copying images/sakula_fall13.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall13.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall13.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall13.png
 
 chessms/images/sakula_fall14.png: /run/media/root/linux/实训/chessms/images/sakula_fall14.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Copying images/sakula_fall14.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall14.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Copying images/sakula_fall14.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall14.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall14.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall14.png
 
 chessms/images/sakula_fall15.png: /run/media/root/linux/实训/chessms/images/sakula_fall15.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Copying images/sakula_fall15.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall15.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Copying images/sakula_fall15.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall15.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall15.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall15.png
 
 chessms/images/sakula_fall16.png: /run/media/root/linux/实训/chessms/images/sakula_fall16.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Copying images/sakula_fall16.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall16.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Copying images/sakula_fall16.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall16.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall16.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall16.png
 
 chessms/images/sakula_fall17.png: /run/media/root/linux/实训/chessms/images/sakula_fall17.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Copying images/sakula_fall17.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall17.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Copying images/sakula_fall17.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall17.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall17.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall17.png
 
 chessms/images/sakula_fall18.png: /run/media/root/linux/实训/chessms/images/sakula_fall18.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Copying images/sakula_fall18.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall18.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Copying images/sakula_fall18.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall18.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall18.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall18.png
 
 chessms/images/sakula_fall19.png: /run/media/root/linux/实训/chessms/images/sakula_fall19.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Copying images/sakula_fall19.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall19.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Copying images/sakula_fall19.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall19.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall19.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall19.png
 
 chessms/images/sakula_fall20.png: /run/media/root/linux/实训/chessms/images/sakula_fall20.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Copying images/sakula_fall20.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall20.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Copying images/sakula_fall20.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall20.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall20.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall20.png
 
 chessms/images/sakula_fall21.png: /run/media/root/linux/实训/chessms/images/sakula_fall21.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Copying images/sakula_fall21.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall21.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Copying images/sakula_fall21.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall21.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall21.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall21.png
 
 chessms/images/sakula_fall22.png: /run/media/root/linux/实训/chessms/images/sakula_fall22.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Copying images/sakula_fall22.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall22.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Copying images/sakula_fall22.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall22.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall22.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall22.png
 
 chessms/images/sakula_fall23.png: /run/media/root/linux/实训/chessms/images/sakula_fall23.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Copying images/sakula_fall23.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall23.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Copying images/sakula_fall23.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall23.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall23.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall23.png
 
 chessms/images/sakula_fall24.png: /run/media/root/linux/实训/chessms/images/sakula_fall24.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Copying images/sakula_fall24.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall24.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Copying images/sakula_fall24.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall24.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall24.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall24.png
 
 chessms/images/sakula_fall25.png: /run/media/root/linux/实训/chessms/images/sakula_fall25.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Copying images/sakula_fall25.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall25.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Copying images/sakula_fall25.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall25.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall25.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall25.png
 
 chessms/images/sakula_fall26.png: /run/media/root/linux/实训/chessms/images/sakula_fall26.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Copying images/sakula_fall26.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall26.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Copying images/sakula_fall26.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall26.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall26.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall26.png
 
 chessms/images/sakula_fall27.png: /run/media/root/linux/实训/chessms/images/sakula_fall27.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Copying images/sakula_fall27.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall27.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Copying images/sakula_fall27.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall27.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall27.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall27.png
 
 chessms/images/sakula_fall28.png: /run/media/root/linux/实训/chessms/images/sakula_fall28.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Copying images/sakula_fall28.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall28.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Copying images/sakula_fall28.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall28.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/sakula_fall28.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/sakula_fall28.png
 
 chessms/images/tree.png: /run/media/root/linux/实训/chessms/images/tree.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Copying images/tree.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/tree.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Copying images/tree.png to /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/tree.png"
 	cd /run/media/root/linux/实训/chessms && /usr/bin/cmake -E copy /run/media/root/linux/实训/chessms/images/tree.png /run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/chessms/images/tree.png
 
 appchessms_tooling: chessms/Chessms.qml
 appchessms_tooling: chessms/Flower.qml
 appchessms_tooling: chessms/GameWindow.qml
 appchessms_tooling: chessms/Grassland.qml
-appchessms_tooling: chessms/Images.qml
 appchessms_tooling: chessms/Main.qml
 appchessms_tooling: chessms/Tree.qml
 appchessms_tooling: chessms/ctroller.js
 appchessms_tooling: chessms/images/chessms.png
-appchessms_tooling: chessms/images/flower01.png
-appchessms_tooling: chessms/images/flower02.png
-appchessms_tooling: chessms/images/flower03.png
-appchessms_tooling: chessms/images/flower04.png
 appchessms_tooling: chessms/images/grassland.png
 appchessms_tooling: chessms/images/sakula_fall01.png
 appchessms_tooling: chessms/images/sakula_fall02.png
@@ -288,7 +259,6 @@ appchessms_tooling: chessms/images/sakula_fall26.png
 appchessms_tooling: chessms/images/sakula_fall27.png
 appchessms_tooling: chessms/images/sakula_fall28.png
 appchessms_tooling: chessms/images/tree.png
-appchessms_tooling: chessms/paintCtroller.js
 appchessms_tooling: CMakeFiles/appchessms_tooling.dir/build.make
 .PHONY : appchessms_tooling
 

@@ -75,9 +75,7 @@ CMakeFiles/appchessms_qmlimportscan: .qt/qml_imports/appchessms_build.cmake
 .qt/qml_imports/appchessms_build.cmake: .qt/rcc/qmake_chessms.qrc
 .qt/qml_imports/appchessms_build.cmake: .qt/rcc/appchessms_raw_qml_0.qrc
 .qt/qml_imports/appchessms_build.cmake: /run/media/root/linux/实训/chessms/Main.qml
-.qt/qml_imports/appchessms_build.cmake: /run/media/root/linux/实训/chessms/Images.qml
 .qt/qml_imports/appchessms_build.cmake: /run/media/root/linux/实训/chessms/GameWindow.qml
-.qt/qml_imports/appchessms_build.cmake: /run/media/root/linux/实训/chessms/paintCtroller.js
 .qt/qml_imports/appchessms_build.cmake: /run/media/root/linux/实训/chessms/Flower.qml
 .qt/qml_imports/appchessms_build.cmake: /run/media/root/linux/实训/chessms/Chessms.qml
 .qt/qml_imports/appchessms_build.cmake: /run/media/root/linux/实训/chessms/Tree.qml

@@ -39,6 +39,8 @@ Window {
             property int chessmsS: 0
             property int chessmsA: 0
             property int chessmsD: 0
+            property bool isCtroMoving: false
+            property bool isOnland: true
 
             Canvas {
                 id: canvas
@@ -46,6 +48,7 @@ Window {
 
                 property var grasslandY: Array(15).fill(350)
                 onPaint: {
+                    //console.log(grasslandY[3.2])
                     timer.start();
                     var ctx = canvas.getContext("2d");
                     ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -74,30 +77,49 @@ Window {
                     flower.source = flower.images[flower.index];
                     ctx.drawImage(flower, flower.x, flower.y, flower.width, flower.height);
 
-                    if(ctrollerRect.chessmsW !== 0)
-                    {
-                        chessms.y -= 30;
-                        ctrollerRect.chessmsW--;
-                    }
 
-                    if(ctrollerRect.chessmsS !== 0)
-                    {
-                        chessms.y += 30;
-                        ctrollerRect.chessmsS--;
-                    }
+                    if(chessms.y - grasslandY[chessms.x / 100] != 90 && chessms.y - grasslandY[chessms.x / 100 + 1] != 90)
+                        ctrollerRect.isOnland = false;
+                    else
+                        ctrollerRect.isOnland = true;
 
-                    if(ctrollerRect.chessmsA !== 0)
+                    if(ctrollerRect.isCtroMoving == false)
                     {
-                        chessms.x -= 20;
-                        ctrollerRect.chessmsA--;
+                        if(ctrollerRect.isOnland == false)
+                        {
+                                chessms.y += 30;
+                        }
                     }
-
-                    if(ctrollerRect.chessmsD !== 0)
+                    else
                     {
-                        chessms.x += 20;
-                        ctrollerRect.chessmsD--;
-                    }
+                        if(ctrollerRect.chessmsW !== 0)
+                        {
+                            chessms.y -= 30;
+                            ctrollerRect.chessmsW--;
+                        }
 
+                        if(ctrollerRect.chessmsS !== 0)
+                        {
+                            chessms.y += 15;
+                            ctrollerRect.chessmsS--;
+                        }
+
+                        if(ctrollerRect.chessmsA !== 0)
+                        {
+                            chessms.x -= 20;
+                            ctrollerRect.chessmsA--;
+                        }
+
+                        if(ctrollerRect.chessmsD !== 0)
+                        {
+                            chessms.x += 20;
+                            ctrollerRect.chessmsD--;
+                        }
+
+                        if(ctrollerRect.chessmsA === 0 && ctrollerRect.chessmsD === 0 && ctrollerRect.chessmsW === 0 && ctrollerRect.chessmsS === 0)
+                            ctrollerRect.isCtroMoving = false;
+
+                    }
                     ctx.drawImage(chessms, chessms.x, chessms.y, chessms.width, chessms.height); //绘制chessms
 
 
@@ -111,11 +133,6 @@ Window {
                             running: false
                             repeat: true
                             onTriggered: {
-                                //imageIndex = (imageIndex + 1) % images.length;
-                                // if(flower.index == 27)
-                                //     flower.index = 0;
-                                // else
-                                //     flower.index++;
 
                                 timer.stop();
                                 canvas.requestPaint();
@@ -125,27 +142,41 @@ Window {
             focus: true
             Keys.onPressed: (event)=> {
                                 if(event.key === Qt.Key_W) {
-                                    console.log("Signal W key pressed emitted")
-                                    if(chessms.y !== 290 && chessmsW === 0)
-                                    chessmsW = 5;
+                                    //console.log("Signal W key pressed emitted")
+                                    console.log(chessms.x / 100)
+                                    if(/*chessms.y !== 290 && */chessmsW === 0 && chessmsS === 0 && isOnland == true)
+                                    {
+                                        isCtroMoving = true;
+                                        chessmsW = 7;
+                                    }
                                 }
 
                                 if(event.key === Qt.Key_S) {
-                                    console.log("Signal S key pressed emitted")
-                                    if(chessms.y !== 590 && chessmsS === 0)
-                                    chessmsS = 5;
+                                    //console.log("Signal S key pressed emitted")
+                                    console.log(chessms.x / 100)
+                                    if(chessms.y !== 590 && chessmsS === 0 && chessmsW === 0 && isOnland == true)
+                                    {
+                                        isCtroMoving = true;
+                                        chessmsS = 10;
+                                    }
                                 }
 
                                 if(event.key === Qt.Key_A) {
-                                    console.log("Signal S key pressed emitted")
-                                    if(chessms.x !== 0 && chessmsA === 0)
-                                    chessmsA = 5;
+                                    //console.log("Signal S key pressed emitted")
+                                    if(chessms.x !== 0 && chessmsA === 0 && chessmsD === 0 && isOnland == true)
+                                    {
+                                        isCtroMoving = true;
+                                        chessmsA = 5;
+                                    }
                                 }
 
                                 if(event.key === Qt.Key_D) {
-                                    console.log("Signal S key pressed emitted")
-                                    if(chessms.x !== 1300 && chessmsD === 0)
-                                    chessmsD = 5;
+                                    //console.log("Signal S key pressed emitted")
+                                    if(chessms.x !== 1300 && chessmsD === 0 && chessmsA === 0 && isOnland == true)
+                                    {
+                                        isCtroMoving = true;
+                                        chessmsD = 5;
+                                    }
                                 }
                             }
         }
@@ -160,7 +191,7 @@ Window {
 
         onClicked: {
             //canvas.visible = !canvas.visible;
-            console.log(stopGame.checked);
+            //console.log(stopGame.checked);
             if(stopGame.checked === false)
             {
                 stopGame.checked = true;
