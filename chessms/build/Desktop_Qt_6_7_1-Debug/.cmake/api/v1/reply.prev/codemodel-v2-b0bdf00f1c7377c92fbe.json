@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-111e22aa7adb73349032.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chessms",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-5807d11ca7f5976d6a3a.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-5e865f155ffc6960455f.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-9a5d98d5b881879a946f.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-7b854cf57fe350738e99.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchessms::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchessms-Debug-06e8d84892eb848dab91.json",
+					"name" : "appchessms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchessms_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchessms_autogen-Debug-4a0a50aba5033c1e78df.json",
+					"name" : "appchessms_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchessms_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchessms_autogen_timestamp_deps-Debug-fd342ffdff63c0a01020.json",
+					"name" : "appchessms_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchessms_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchessms_qmlimportscan-Debug-d069ab8ddbb551ae43fb.json",
+					"name" : "appchessms_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchessms_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchessms_qmllint-Debug-09f91b937641c7d37f24.json",
+					"name" : "appchessms_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchessms_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchessms_qmllint_json-Debug-34a52ec27d2432af80aa.json",
+					"name" : "appchessms_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchessms_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchessms_qmllint_module-Debug-fd96dbd7e2d3889e5e87.json",
+					"name" : "appchessms_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchessms_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchessms_qmltyperegistration-Debug-64c216a12dcb573a0b9e.json",
+					"name" : "appchessms_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchessms_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchessms_tooling-Debug-7ee268b2d47994340bfb.json",
+					"name" : "appchessms_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/run/media/root/linux/\u5b9e\u8bad/chessms/build/Desktop_Qt_6_7_1-Debug",
+		"source" : "/run/media/root/linux/\u5b9e\u8bad/chessms"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
