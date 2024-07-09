@@ -419,7 +419,6 @@ CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_
   /opt/Qt/6.7.1/gcc_64/include/QtCore/qurl.h \
   /opt/Qt/6.7.1/gcc_64/include/QtCore/qversionnumber.h \
   /opt/Qt/6.7.1/gcc_64/include/QtCore/qtyperevision.h \
-  /opt/Qt/6.7.1/gcc_64/include/QtCore/qloggingcategory.h \
   /opt/Qt/6.7.1/gcc_64/include/QtCore/qtimezone.h \
   /opt/Qt/6.7.1/gcc_64/include/QtQml/qjsengine.h \
   /opt/Qt/6.7.1/gcc_64/include/QtQml/qjsmanagedvalue.h \

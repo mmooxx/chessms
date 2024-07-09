@@ -6,10 +6,19 @@ ApplicationWindow {
     width: 740
     height: 500
     visible: true
+    minimumWidth: 740
+    maximumWidth: 740
+    minimumHeight: 500
+    maximumHeight: 500
     title: qsTr("chessms")
 
-    GameWindow {
+    Item {
         id: gameWindow
+    }
+
+    Image {
+        source: "images/chessmsBack.jpg"
+        anchors.fill: parent
     }
 
     Button {
@@ -21,7 +30,9 @@ ApplicationWindow {
         y: parent.height / 2
 
         onClicked: {
-            gameWindow.show()
+            var component = Qt.createComponent("GameWindow.qml");
+            var object = component.createObject(gameWindow)
+            object.show()
         }
     }
 
