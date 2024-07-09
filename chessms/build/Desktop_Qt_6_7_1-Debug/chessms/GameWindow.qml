@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Controls
+import QtMultimedia
 import "ctroller.js" as Ctroller
 
 Window {
@@ -7,6 +8,24 @@ Window {
     height: 920
     //visible: false
     title: qsTr("chessmsGame")
+
+    MediaPlayer {
+        id: slashAudio
+        source: "audios/slash.mp3"
+        audioOutput: AudioOutput {}
+    }
+
+    MediaPlayer {
+        id: bounceAudio
+        source: "audios/bounce.wav"
+        audioOutput: AudioOutput {}
+    }
+
+    MediaPlayer {
+        id: attackedAudio
+        source: "audios/attacked.wav"
+        audioOutput: AudioOutput {}
+    }
 
     Chessms {
         id: chessms
@@ -37,6 +56,12 @@ Window {
         id: ctrollerRect
             width: parent.width
             height: parent.height
+
+            //背景
+            Image {
+                source: "images/sun.jpg"
+                anchors.fill: parent
+            }
 
             property int chessmsW: 0
             property int chessmsS: 0
@@ -201,6 +226,7 @@ Window {
                                     && monsterX[u] > chessms.x + 50 && monsterX[u] < chessms.x + 250)
                             {
                                 //console.log("kk")
+                                chessms.kills++;
                                 monsterY[u] = 920;
                             }
                         }
@@ -212,6 +238,9 @@ Window {
                         if(monsterX[a] === chessms.x + 40 && monsterY[a] < chessms.y + 120 && monsterY[a] > chessms.y - 30)
                         {
                             chessms.health--;
+
+                            attackedAudio.stop();
+                            attackedAudio.play();
                             console.log(chessms.health)
                         }
                     }
@@ -236,6 +265,9 @@ Window {
                     if(chessms.y === 920)
                     {
                         chessms.health = 0;
+
+                        //attackedAudio.stop();
+                        attackedAudio.play();
                     }
 
                     //chessms生命值为0游戏结束
@@ -257,6 +289,9 @@ Window {
 
                                 timer.stop();
                                 canvas.requestPaint();
+
+                                chessms.distance++;
+                                chessms.tim += 20;
                             }
                         }
 
@@ -269,6 +304,8 @@ Window {
                                     {
                                         isCtroMoving = true;
                                         chessmsW = 7;
+                                        bounceAudio.stop();
+                                        bounceAudio.play();
                                     }
                                 }
 
@@ -304,6 +341,8 @@ Window {
                                     if(isSlash == false)
                                     {
                                         isSlash = true;
+                                        slashAudio.stop();
+                                        slashAudio.play();
                                     }
                                 }
                             }
@@ -330,5 +369,40 @@ Window {
                 ctrollerRect.focus = true;
             }
         }
+    }
+
+    View {
+        id: health
+        x: 0
+        y: 0
+        v_Text.text:  "生命值：" + chessms.health
+    }
+
+    View {
+        id: kills
+        x: 200
+        y: 0
+        v_Text.text:  "击杀数：" + chessms.kills
+    }
+
+    View {
+        id: score
+        x: 400
+        y: 0
+        v_Text.text:  "得分：" + chessms.score
+    }
+
+    View {
+        id: distance
+        x: 1000
+        y: 0
+        v_Text.text:  "距离：" + chessms.distance + "m"
+    }
+
+    View {
+        id: tim
+        x: 1200
+        y: 0
+        v_Text.text:  "时间：" + (chessms.tim / 1000).toFixed(1) + "s"
     }
 }

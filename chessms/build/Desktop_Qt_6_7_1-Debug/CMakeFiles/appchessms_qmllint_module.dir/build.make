@@ -79,6 +79,7 @@ CMakeFiles/appchessms_qmllint_module: /run/media/root/linux/实训/chessms/Grass
 CMakeFiles/appchessms_qmllint_module: /run/media/root/linux/实训/chessms/ctroller.js
 CMakeFiles/appchessms_qmllint_module: /run/media/root/linux/实训/chessms/Chessms_slash.qml
 CMakeFiles/appchessms_qmllint_module: /run/media/root/linux/实训/chessms/Monster.qml
+CMakeFiles/appchessms_qmllint_module: /run/media/root/linux/实训/chessms/View.qml
 CMakeFiles/appchessms_qmllint_module: .rcc/qmllint/appchessms_module.rsp
 	cd /run/media/root/linux/实训/chessms && /opt/Qt/6.7.1/gcc_64/bin/qmllint @/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.rcc/qmllint/appchessms_module.rsp
 

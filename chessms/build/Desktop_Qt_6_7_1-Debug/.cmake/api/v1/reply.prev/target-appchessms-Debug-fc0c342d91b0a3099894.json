@@ -100,13 +100,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 102,
+				"line" : 111,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 99,
+				"line" : 108,
 				"parent" : 0
 			},
 			{
@@ -457,7 +457,7 @@
 			{
 				"command" : 24,
 				"file" : 1,
-				"line" : 87,
+				"line" : 96,
 				"parent" : 0
 			},
 			{
@@ -623,6 +623,18 @@
 				"parent" : 58
 			},
 			{
+				"command" : 25,
+				"file" : 5,
+				"line" : 2531,
+				"parent" : 58
+			},
+			{
+				"command" : 25,
+				"file" : 5,
+				"line" : 2683,
+				"parent" : 58
+			},
+			{
 				"command" : 29,
 				"file" : 5,
 				"line" : 2766,
@@ -632,19 +644,19 @@
 				"command" : 28,
 				"file" : 0,
 				"line" : 337,
-				"parent" : 98
+				"parent" : 100
 			},
 			{
 				"command" : 27,
 				"file" : 0,
 				"line" : 2390,
-				"parent" : 99
+				"parent" : 101
 			},
 			{
 				"command" : 25,
 				"file" : 0,
 				"line" : 2004,
-				"parent" : 100
+				"parent" : 102
 			},
 			{
 				"command" : 31,
@@ -656,7 +668,7 @@
 				"command" : 25,
 				"file" : 0,
 				"line" : 2117,
-				"parent" : 102
+				"parent" : 104
 			}
 		]
 	},
@@ -836,7 +848,8 @@
 				19,
 				21,
 				23,
-				24
+				25,
+				26
 			]
 		}
 	],
@@ -956,15 +969,15 @@
 			"sourceIndexes" : 
 			[
 				0,
-				75,
-				93,
-				94,
-				95,
-				96,
-				97,
-				98,
-				99,
-				100
+				81,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107
 			]
 		},
 		{
@@ -984,7 +997,8 @@
 				19,
 				21,
 				23,
-				24
+				25,
+				26
 			]
 		},
 		{
@@ -1001,17 +1015,19 @@
 				18,
 				20,
 				22,
-				25,
-				26,
-				27
+				24,
+				27,
+				28,
+				29,
+				77,
+				78,
+				79
 			]
 		},
 		{
 			"name" : "Resources",
 			"sourceIndexes" : 
 			[
-				28,
-				29,
 				30,
 				31,
 				32,
@@ -1056,19 +1072,16 @@
 				71,
 				72,
 				73,
-				74
+				74,
+				75,
+				76,
+				80
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				76,
-				77,
-				78,
-				79,
-				80,
-				81,
 				82,
 				83,
 				84,
@@ -1079,7 +1092,14 @@
 				89,
 				90,
 				91,
-				92
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99
 			]
 		}
 	],
@@ -1234,263 +1254,295 @@
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 101,
+			"backtrace" : 98,
+			"path" : "View.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 99,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_View_qml.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 103,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appchessms_raw_qml_0.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_chessms.qrc",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/qmldir",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appchessms_raw_qml_0.qrc",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/chessms.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/grassland.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall01.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall02.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall03.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall04.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall05.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall06.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall07.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall08.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall09.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall10.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall11.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall12.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall13.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall14.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall15.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall16.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall17.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall18.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall19.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall20.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall21.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall22.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall23.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall24.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall25.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall26.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall27.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/sakula_fall28.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/tree.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/slash1.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/slash2.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/slash3.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/slash4.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/monster01.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/monster02.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/monster03.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/monster04.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/monster05.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/monster06.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/monster07.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/monster08.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/monster09.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/monster10.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/monster11.png",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 105,
 			"path" : "images/monster12.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 105,
+			"path" : "audios/slash.mp3",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 105,
+			"path" : "audios/bounce.wav",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 105,
+			"path" : "audios/attacked.wav",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 105,
+			"path" : "images/chessmsBack.jpg",
 			"sourceGroupIndex" : 3
 		},
 		{
@@ -1575,6 +1627,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_View_qml.cpp.rule",
 			"sourceGroupIndex" : 4
 		},
 		{

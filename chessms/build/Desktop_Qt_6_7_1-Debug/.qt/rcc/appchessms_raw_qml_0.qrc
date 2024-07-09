@@ -9,6 +9,7 @@
     <file alias="ctroller.js">/run/media/root/linux/实训/chessms/ctroller.js</file>
     <file alias="Chessms_slash.qml">/run/media/root/linux/实训/chessms/Chessms_slash.qml</file>
     <file alias="Monster.qml">/run/media/root/linux/实训/chessms/Monster.qml</file>
+    <file alias="View.qml">/run/media/root/linux/实训/chessms/View.qml</file>
     <file alias="images/chessms.png">/run/media/root/linux/实训/chessms/images/chessms.png</file>
     <file alias="images/grassland.png">/run/media/root/linux/实训/chessms/images/grassland.png</file>
     <file alias="images/sakula_fall01.png">/run/media/root/linux/实训/chessms/images/sakula_fall01.png</file>
@@ -56,6 +57,11 @@
     <file alias="images/monster10.png">/run/media/root/linux/实训/chessms/images/monster10.png</file>
     <file alias="images/monster11.png">/run/media/root/linux/实训/chessms/images/monster11.png</file>
     <file alias="images/monster12.png">/run/media/root/linux/实训/chessms/images/monster12.png</file>
+    <file alias="audios/slash.mp3">/run/media/root/linux/实训/chessms/audios/slash.mp3</file>
+    <file alias="audios/bounce.wav">/run/media/root/linux/实训/chessms/audios/bounce.wav</file>
+    <file alias="audios/attacked.wav">/run/media/root/linux/实训/chessms/audios/attacked.wav</file>
+    <file alias="images/chessmsBack.jpg">/run/media/root/linux/实训/chessms/images/chessmsBack.jpg</file>
+    <file alias="images/sun.jpg">/run/media/root/linux/实训/chessms/images/sun.jpg</file>
   </qresource>
 </RCC>
 

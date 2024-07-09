@@ -77,14 +77,17 @@
 				5,
 				6,
 				7,
-				8
+				8,
+				9,
+				57,
+				58,
+				59
 			]
 		},
 		{
 			"name" : "Resources",
 			"sourceIndexes" : 
 			[
-				9,
 				10,
 				11,
 				12,
@@ -130,18 +133,15 @@
 				52,
 				53,
 				54,
-				55
+				55,
+				56,
+				60
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				56,
-				57,
-				58,
-				59,
-				60,
 				61,
 				62,
 				63,
@@ -192,7 +192,17 @@
 				108,
 				109,
 				110,
-				111
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121
 			]
 		}
 	],
@@ -250,6 +260,12 @@
 			"backtrace" : 5,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/Monster.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/View.qml",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -535,6 +551,30 @@
 			"sourceGroupIndex" : 1
 		},
 		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/audios/slash.mp3",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/audios/bounce.wav",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/audios/attacked.wav",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/chessmsBack.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/Main.qml.rule",
@@ -586,6 +626,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/Monster.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/View.qml.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
@@ -868,6 +914,30 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster12.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/audios/slash.mp3.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/audios/bounce.wav.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/audios/attacked.wav.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/chessmsBack.jpg.rule",
 			"sourceGroupIndex" : 2
 		}
 	],

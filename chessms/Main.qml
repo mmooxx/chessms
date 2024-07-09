@@ -12,6 +12,11 @@ ApplicationWindow {
         id: gameWindow
     }
 
+    Image {
+        source: "images/chessmsBack.jpg"
+        anchors.fill: parent
+    }
+
     Button {
         id: beginGame
         text: "开始游戏"

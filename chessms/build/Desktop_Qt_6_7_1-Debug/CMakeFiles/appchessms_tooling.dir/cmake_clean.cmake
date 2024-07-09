@@ -7,8 +7,13 @@ file(REMOVE_RECURSE
   "chessms/Main.qml"
   "chessms/Monster.qml"
   "chessms/Tree.qml"
+  "chessms/View.qml"
+  "chessms/audios/attacked.wav"
+  "chessms/audios/bounce.wav"
+  "chessms/audios/slash.mp3"
   "chessms/ctroller.js"
   "chessms/images/chessms.png"
+  "chessms/images/chessmsBack.jpg"
   "chessms/images/grassland.png"
   "chessms/images/monster01.png"
   "chessms/images/monster02.png"
@@ -54,6 +59,7 @@ file(REMOVE_RECURSE
   "chessms/images/slash2.png"
   "chessms/images/slash3.png"
   "chessms/images/slash4.png"
+  "chessms/images/sun.jpg"
   "chessms/images/tree.png"
 )
 

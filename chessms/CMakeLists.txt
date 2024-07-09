@@ -83,7 +83,17 @@ qt_add_qml_module(
   images/monster10.png
   images/monster11.png
   images/monster12.png
-  QML_FILES Monster.qml)
+  QML_FILES
+  Monster.qml
+  QML_FILES
+  View.qml
+  RESOURCES
+  audios/slash.mp3
+  RESOURCES
+  audios/bounce.wav
+  RESOURCES audios/attacked.wav
+  RESOURCES images/chessmsBack.jpg
+  RESOURCES images/sun.jpg)
 target_compile_features(appchessms PRIVATE cxx_std_20)
 
 set_target_properties(

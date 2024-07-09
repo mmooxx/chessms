@@ -11,6 +11,7 @@ e2a84aa1fabf23d59da41e0de7a8c7c1 .rcc/qmlcache/appchessms_GameWindow_qml.cpp
 556d34facff5647ab302ecc05eeb488c .rcc/qmlcache/appchessms_Main_qml.cpp
 a2db3fbf60c22c29f0ad3e6bb0c546bf .rcc/qmlcache/appchessms_Monster_qml.cpp
 c81a160e0e0be04e8e0e3be988a0a3fe .rcc/qmlcache/appchessms_Tree_qml.cpp
+7fcd1bc42c0e1545138153de9e1287d8 .rcc/qmlcache/appchessms_View_qml.cpp
 3886a8affddfe9543b8cef374d0005bd .rcc/qmlcache/appchessms_ctroller_js.cpp
 726fb903696477a16bee5ce5ecc10939 .rcc/qmlcache/appchessms_gameWindow_qml.cpp
 4583253ce03b2695b7d773b5181b473b .rcc/qmlcache/appchessms_images_qml.cpp
@@ -33,6 +34,11 @@ efc4e92328ee75724e6bc9cde7376c32 chessms/GameWindow.qml
 c178c148af47c386e493d99f73e069da chessms/Main.qml
 269f2e5c741ef3df3a921fcf95840f46 chessms/Monster.qml
 ef5cb9ed3a9f5655f72a17e55ec3b8fe chessms/Tree.qml
+5dec05ec374083c1be73053e0e1913bd chessms/View.qml
+c2701c921467d79f51b02556aa81587e chessms/audios/attacked.wav
+f61af85b7dd6b5428cf84e89283e707f chessms/audios/bounce.mp3
+7c5408ac249b2e4b2935ec579a99f99f chessms/audios/bounce.wav
+22b3d836941652472ca0471f7298f6fc chessms/audios/slash.mp3
 24c280c662f810bfb02928832788925e chessms/chessms.qml
 a0c53d605ff4e623c9aac89ad34ba906 chessms/ctroller.js
 b83c9b1cb78c14c7886737f4c4b89338 chessms/flower.qml
@@ -40,6 +46,7 @@ b83c9b1cb78c14c7886737f4c4b89338 chessms/flower.qml
 ffec8c50edcabb685968251f70ce7f21 chessms/grassland.qml
 18bf0150a6a47a1db6d4dd39a302159a chessms/images.qml
 e7283b66185d5ec091897c09c079dfc6 chessms/images/chessms.png
+ec35d43b350e2247af80c5a305c6c166 chessms/images/chessmsBack.jpg
 bb232584e0a71acad1bd5db641b0d8d3 chessms/images/flower01.png
 afa38c54d5c3d716b7b60e867bcbdddc chessms/images/flower02.png
 f8bd5cbea658e3409e89a43f3bb4b9d0 chessms/images/flower03.png
@@ -90,6 +97,7 @@ ce051ed2ddfc519e37fff345ecdd0089 chessms/images/sakula_fall28.png
 0a22c80cab365ff9e8e2adac4d90e482 chessms/images/slash2.png
 de37e2d91f3db879f0e3ee54502dfc92 chessms/images/slash3.png
 534a9b4d47cbc9923aeecd31199f732d chessms/images/slash4.png
+a495529e200767ac9b8a593aab0b71d9 chessms/images/sun.jpg
 7cc2f0cbe563874781d0ee854b233847 chessms/images/tree.png
 8380fd58f490ab7e4aa9bbb4c7bc0588 chessms/paintCtroller.js
 3e8cf0b6f012588284c8559db6d1a472 chessms/tree.qml

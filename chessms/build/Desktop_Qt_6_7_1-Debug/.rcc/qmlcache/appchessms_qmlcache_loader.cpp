@@ -68,6 +68,13 @@ namespace _chessms_Monster_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _chessms_View_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -91,6 +98,7 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/chessms/ctroller.js"), &QmlCacheGeneratedCode::_chessms_ctroller_js::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/chessms/Chessms_slash.qml"), &QmlCacheGeneratedCode::_chessms_Chessms_slash_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/chessms/Monster.qml"), &QmlCacheGeneratedCode::_chessms_Monster_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/chessms/View.qml"), &QmlCacheGeneratedCode::_chessms_View_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;
