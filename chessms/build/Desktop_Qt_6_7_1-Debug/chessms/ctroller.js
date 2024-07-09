@@ -19,6 +19,37 @@ function buildGrasslandY(arr) {
     return arr;
 }
 
+function buildTreeY(arrT, arrG) {
+    for(let i = 0; i != 2; i++)
+    {
+        arrT[i] = arrT[i + 1];
+    }
+    arrT[2] = arrG[14] - 115;
+
+    return arrT;
+}
+
+function buildMonster(arrMX, arrMY, arrG) {
+    var add = 0;
+    if(arrG[13] !== arrG[14])
+    {
+        for(let i = 0; i != 3; i++)
+        {
+            if(arrMY[i] === 920 && randomBooleanWithProbability(0.4) === true) //设定怪物出现概率
+            {
+                arrMY[i] =arrG[13] + 90;
+                arrMX[i] = 1400 + add * 40; //相邻怪物间隔40
+                add++;
+            }
+        }
+    }
+
+    return [arrMX, arrMY];
+}
+
+function randomBooleanWithProbability(probability) {
+    return Math.random() < probability;
+}
 // function returnGrasslandY(chessmsX, arr) {
 //     return arr[chessmsX / 100];
 // }

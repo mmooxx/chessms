@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-b41a6c91700d8a4870c5.json",
+					"jsonFile" : "directory-.-Debug-f8cb0ceedac88f19459b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -92,7 +92,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appchessms::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appchessms-Debug-25b3162e22b1c22877f8.json",
+					"jsonFile" : "target-appchessms-Debug-d8a2af69d38aae430905.json",
 					"name" : "appchessms",
 					"projectIndex" : 0
 				},
@@ -148,7 +148,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appchessms_tooling::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appchessms_tooling-Debug-990f35d613ddc0a1d21f.json",
+					"jsonFile" : "target-appchessms_tooling-Debug-f1d44a02c55ad842f9c5.json",
 					"name" : "appchessms_tooling",
 					"projectIndex" : 0
 				}

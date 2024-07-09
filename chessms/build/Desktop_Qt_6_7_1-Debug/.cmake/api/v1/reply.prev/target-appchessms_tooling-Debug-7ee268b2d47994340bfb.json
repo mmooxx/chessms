@@ -75,14 +75,14 @@
 				3,
 				4,
 				5,
-				6
+				6,
+				7
 			]
 		},
 		{
 			"name" : "Resources",
 			"sourceIndexes" : 
 			[
-				7,
 				8,
 				9,
 				10,
@@ -112,13 +112,7 @@
 				34,
 				35,
 				36,
-				37
-			]
-		},
-		{
-			"name" : "CMake Rules",
-			"sourceIndexes" : 
-			[
+				37,
 				38,
 				39,
 				40,
@@ -135,7 +129,13 @@
 				51,
 				52,
 				53,
-				54,
+				54
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
 				55,
 				56,
 				57,
@@ -156,7 +156,41 @@
 				72,
 				73,
 				74,
-				75
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109
 			]
 		}
 	],
@@ -202,6 +236,12 @@
 			"backtrace" : 5,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/ctroller.js",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/Chessms_slash.qml",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -391,6 +431,102 @@
 			"sourceGroupIndex" : 1
 		},
 		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/slash1.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/slash2.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/slash3.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/slash4.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster01.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster02.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster03.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster04.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster05.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster06.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster07.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster08.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster09.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster10.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster11.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster12.png",
+			"sourceGroupIndex" : 1
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/Main.qml.rule",
@@ -430,6 +566,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/ctroller.js.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/Chessms_slash.qml.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
@@ -616,6 +758,102 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/tree.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/slash1.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/slash2.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/slash3.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/slash4.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster01.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster02.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster03.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster04.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster05.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster06.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster07.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster08.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster09.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster10.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster11.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/chessms/images/monster12.png.rule",
 			"sourceGroupIndex" : 2
 		}
 	],

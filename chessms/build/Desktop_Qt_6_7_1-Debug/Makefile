@@ -453,6 +453,30 @@ build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appchessms.dir/build.make CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.cpp.s
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.cpp.s
 
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.o
+
+# target to build an object file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appchessms.dir/build.make CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.cpp.o
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.i: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appchessms.dir/build.make CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.cpp.i
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.s: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appchessms.dir/build.make CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.cpp.s
+
 build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.cpp.o
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.o
 
@@ -548,6 +572,30 @@ build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.s: build/Desktop_
 build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appchessms.dir/build.make CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp.s
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.cpp.s
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.o
+
+# target to build an object file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appchessms.dir/build.make CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.cpp.o
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.i: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appchessms.dir/build.make CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.cpp.i
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.s: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appchessms.dir/build.make CMakeFiles/appchessms.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.cpp.s
 
 build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.cpp.o
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.o
@@ -685,6 +733,9 @@ help:
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.o"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.i"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_qml.s"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.o"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.i"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Chessms_slash_qml.s"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.o"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.i"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Flower_qml.s"
@@ -697,6 +748,9 @@ help:
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.o"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.i"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Main_qml.s"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.o"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.i"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Monster_qml.s"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.o"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.i"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appchessms_Tree_qml.s"

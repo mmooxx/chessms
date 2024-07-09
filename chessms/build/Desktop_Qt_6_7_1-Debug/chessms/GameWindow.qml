@@ -1,20 +1,23 @@
 import QtQuick
 import QtQuick.Controls
 import "ctroller.js" as Ctroller
-import "paintCtroller.js" as Paint
 
 Window {
     width: 1400
-    height: 1000
+    height: 920
     //visible: false
     title: qsTr("chessmsGame")
 
-    // Images {
-    //     id: img
-    // }
-
     Chessms {
         id: chessms
+    }
+
+    Chessms_slash {
+        id: chessms_slash
+    }
+
+    Monster {
+        id: monster
     }
 
     Flower {
@@ -41,41 +44,73 @@ Window {
             property int chessmsD: 0
             property bool isCtroMoving: false
             property bool isOnland: true
+            property bool isSlash: false
 
             Canvas {
                 id: canvas
                 anchors.fill: parent
 
                 property var grasslandY: Array(15).fill(350)
+                property var treeY: Array(3).fill(235)
+                property var monsterY: Array(3).fill(920) //最多3个怪物在地图上，y坐标为920代表死亡
+                property var monsterX: Array(3).fill(-100)
+                property var monsterDown: Array(3).fill(false) //是否判断怪物下降
                 onPaint: {
-                    //console.log(grasslandY[3.2])
                     timer.start();
                     var ctx = canvas.getContext("2d");
                     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
 
-                    for(var i = 0; i !== 15; i++) //绘制 14张草地
+                    //绘制15张草地
+                    for(let i = 0; i !== 15; i++)
                     {
                         //console.log(grasslandY[i]);
                         ctx.drawImage(grassland, grassland.x, grasslandY[i], grassland.width, grassland.height);
                         grassland.x += 100; //x坐标
                     }
 
+                    //花瓣动态
+                    flower.source = flower.images[flower.index];
+                    if(flower.index == 27)
+                        flower.index = 0;
+                    else
+                        flower.index++;
+                    //绘制树木和花瓣
+                    for(let o = 0; o !== 3; o++)
+                    {
+                        //console.log(tree.x);
+                        ctx.drawImage(tree, tree.x, treeY[o], tree.width, tree.height);
+
+                        ctx.drawImage(flower, tree.x - 20, treeY[o] + 100, flower.width, flower.height);
+                        ctx.drawImage(flower, tree.x + 80, treeY[o] + 100, flower.width, flower.height);
+                        tree.x += 600;
+                    }
+                    //ctx.drawImage(flower, flower.x, flower.y, flower.width, flower.height);
+
+
+                    //移动和更新地形
                     grassland.x -= 1505;
                     if(grassland.x === -100)
                     {
                         grassland.x = 0;
                         grasslandY = Ctroller.buildGrasslandY(grasslandY);
+
+                        //更新地形时产生怪物并判断怪物是否下降
+                        var result = Ctroller.buildMonster(monsterX, monsterY, grasslandY);
+                        monsterX = result[0];
+                        monsterY = result[1];
+
+                        monsterDown.fill(true);
+                        //console.log(monsterDown[0])
                     }
-                    //console.log(grassland.x);
 
-
-                    if(flower.index == 27)
-                        flower.index = 0;
-                    else
-                        flower.index++;
-                    flower.source = flower.images[flower.index];
-                    ctx.drawImage(flower, flower.x, flower.y, flower.width, flower.height);
+                    //移动和更新树
+                     tree.x -= 1805;
+                    if(tree.x === -300)
+                    {
+                        tree.x = 300;
+                        treeY = Ctroller.buildTreeY(treeY, grasslandY);
+                    }
 
 
                     if(chessms.y - grasslandY[chessms.x / 100] != 90 && chessms.y - grasslandY[chessms.x / 100 + 1] != 90)
@@ -122,6 +157,57 @@ Window {
                     }
                     ctx.drawImage(chessms, chessms.x, chessms.y, chessms.width, chessms.height); //绘制chessms
 
+                    //关于怪物
+                    for(let p = 0; p != 3; p++)
+                    {
+                        if(monsterY[p] !== 920) //怪物存在
+                        {
+                            //console.log(monsterX[p], grasslandY[Math.floor(monsterX[p] / 100 - 1)])
+                            //怪物移动逻辑
+                            if(monsterDown[p] === true && monsterY[p] - grasslandY[Math.floor(monsterX[p] / 100)] != 90
+                                    && monsterY[p] - grasslandY[Math.floor(monsterX[p] / 100 - 1)] != 90)
+                            {
+                                monsterY[p] += 30;
+                            }
+                            else
+                            {
+                                monsterDown[p] = false;
+                            }
+
+                            if(monsterX[p] === -100)
+                            {
+                                monsterY[p] = 920;
+                            }
+                            monsterX[p] -= 10;
+
+                            //绘制怪物
+                            ctx.drawImage(monster, monsterX[p], monsterY[p], monster.width, monster.height);
+                        }
+                    }
+                    //动态怪物
+                    monster.index++;
+                    if(monster.index === 12)
+                    {
+                        monster.index = 0;
+                    }
+                    monster.source = monster.images[monster.index];
+
+
+                    //绘制chessms的斩击(间隔1帧才能再次进行斩击）
+                    if(ctrollerRect.isSlash == true)
+                    {
+                        if(chessms_slash.index === 4)
+                        {
+                            chessms_slash.index = 0;
+                            ctrollerRect.isSlash = false;
+                        }
+                        else
+                        {
+                            chessms_slash.source = chessms_slash.images[chessms_slash.index];
+                            chessms_slash.index++;
+                            ctx.drawImage(chessms_slash, chessms.x + 50, chessms.y - 20, chessms_slash.width, chessms_slash.height);
+                        }
+                    }
 
                 }
             }
@@ -178,6 +264,13 @@ Window {
                                         chessmsD = 5;
                                     }
                                 }
+
+                                if(event.key === Qt.Key_Space) {
+                                    if(isSlash == false)
+                                    {
+                                        isSlash = true;
+                                    }
+                                }
                             }
         }
 
@@ -187,7 +280,7 @@ Window {
         width: 100
         height: 35
         x: 1300
-        y: 700
+        y: 800
 
         onClicked: {
             //canvas.visible = !canvas.visible;

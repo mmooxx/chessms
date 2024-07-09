@@ -12,21 +12,7 @@ namespace _chessms_Main_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _chessms_Images_qml { 
-    extern const unsigned char qmlData[];
-    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
-    const QQmlPrivate::CachedQmlUnit unit = {
-        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
-    };
-}
 namespace _chessms_GameWindow_qml { 
-    extern const unsigned char qmlData[];
-    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
-    const QQmlPrivate::CachedQmlUnit unit = {
-        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
-    };
-}
-namespace _chessms_paintCtroller_js { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -68,6 +54,20 @@ namespace _chessms_ctroller_js {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _chessms_Chessms_slash_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _chessms_Monster_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -83,14 +83,14 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/chessms/Main.qml"), &QmlCacheGeneratedCode::_chessms_Main_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/chessms/Images.qml"), &QmlCacheGeneratedCode::_chessms_Images_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/chessms/GameWindow.qml"), &QmlCacheGeneratedCode::_chessms_GameWindow_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/chessms/paintCtroller.js"), &QmlCacheGeneratedCode::_chessms_paintCtroller_js::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/chessms/Flower.qml"), &QmlCacheGeneratedCode::_chessms_Flower_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/chessms/Chessms.qml"), &QmlCacheGeneratedCode::_chessms_Chessms_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/chessms/Tree.qml"), &QmlCacheGeneratedCode::_chessms_Tree_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/chessms/Grassland.qml"), &QmlCacheGeneratedCode::_chessms_Grassland_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/chessms/ctroller.js"), &QmlCacheGeneratedCode::_chessms_ctroller_js::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/chessms/Chessms_slash.qml"), &QmlCacheGeneratedCode::_chessms_Chessms_slash_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/chessms/Monster.qml"), &QmlCacheGeneratedCode::_chessms_Monster_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;
