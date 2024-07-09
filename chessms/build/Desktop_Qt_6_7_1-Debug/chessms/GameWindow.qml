@@ -7,6 +7,10 @@ Window {
     width: 1400
     height: 920
     //visible: false
+    minimumWidth: 1400
+    maximumWidth: 1400
+    minimumHeight: 920
+    maximumHeight: 920
     title: qsTr("chessmsGame")
 
     MediaPlayer {
@@ -274,6 +278,16 @@ Window {
                     if(chessms.health == 0)
                     {
                         timer.stop();
+
+                        ctx.font = "90px serif";
+                        ctx.fillStyle = "red";
+
+                        var text = "游 戏 结 束";
+                        var textWidth = ctx.measureText(text).width;
+                        var x = (width - textWidth) / 2;
+                        var y = height / 2;
+
+                        ctx.fillText(text, x, y);
                     }
 
                 }
@@ -352,9 +366,9 @@ Window {
         id: stopGame
         text: "暂停/启动"
         width: 100
-        height: 35
+        height: 40
         x: 1300
-        y: 800
+        y: 880
 
         onClicked: {
             //canvas.visible = !canvas.visible;
