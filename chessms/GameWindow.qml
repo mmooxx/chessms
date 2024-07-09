@@ -4,6 +4,7 @@ import QtMultimedia
 import "ctroller.js" as Ctroller
 
 Window {
+    id: gameWindow
     width: 1400
     height: 920
     //visible: false
@@ -12,6 +13,14 @@ Window {
     minimumHeight: 920
     maximumHeight: 920
     title: qsTr("chessmsGame")
+
+    MediaPlayer {
+        id: backAudio
+        source: "audios/backAudio.mp3"
+        autoPlay: true
+        loops: MediaPlayer.Infinite
+        audioOutput: AudioOutput {}
+    }
 
     MediaPlayer {
         id: slashAudio
@@ -185,6 +194,7 @@ Window {
 
                     }
                     ctx.drawImage(chessms, chessms.x, chessms.y, chessms.width, chessms.height); //绘制chessms
+                    chessms.source = "images/chessms.png";
 
                     //关于怪物
                     for(let p = 0; p != 3; p++)
@@ -243,9 +253,11 @@ Window {
                         {
                             chessms.health--;
 
+                            chessms.source = "images/chessms2.png";
+                            ctx.drawImage(chessms, chessms.x, chessms.y, chessms.width, chessms.height);
                             attackedAudio.stop();
                             attackedAudio.play();
-                            console.log(chessms.health)
+                            //console.log(chessms.health)
                         }
                     }
 
@@ -270,6 +282,8 @@ Window {
                     {
                         chessms.health = 0;
 
+                        // chessms.source = "images/chessms2.png";
+                        // ctx.drawImage(chessms, chessms.x, chessms.y, chessms.width, chessms.height);
                         //attackedAudio.stop();
                         attackedAudio.play();
                     }
@@ -288,6 +302,8 @@ Window {
                         var y = height / 2;
 
                         ctx.fillText(text, x, y);
+
+                        backAudio.stop();
                     }
 
                 }
@@ -313,7 +329,7 @@ Window {
             Keys.onPressed: (event)=> {
                                 if(event.key === Qt.Key_W) {
                                     //console.log("Signal W key pressed emitted")
-                                    console.log(chessms.x / 100)
+                                    //console.log(chessms.x / 100)
                                     if(/*chessms.y !== 290 && */chessmsW === 0 && chessmsS === 0 && isOnland == true)
                                     {
                                         isCtroMoving = true;
@@ -325,7 +341,7 @@ Window {
 
                                 if(event.key === Qt.Key_S) {
                                     //console.log("Signal S key pressed emitted")
-                                    console.log(chessms.x / 100)
+                                    //console.log(chessms.x / 100)
                                     if(chessms.y !== 590 && chessmsS === 0 && chessmsW === 0 && isOnland == true)
                                     {
                                         isCtroMoving = true;
@@ -377,11 +393,30 @@ Window {
             {
                 stopGame.checked = true;
                 timer.stop();
+
+                backAudio.pause();
             }else {
                 stopGame.checked = false;
                 timer.start();
                 ctrollerRect.focus = true;
+
+                backAudio.play();
             }
+        }
+    }
+
+    Button {
+        id: close
+        text: "退出"
+        width: 100
+        height: 40
+        x: 0
+        y: 880
+
+        onClicked: {
+            gameWindow.close();
+
+            backAudio.stop();
         }
     }
 

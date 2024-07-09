@@ -93,7 +93,9 @@ qt_add_qml_module(
   audios/bounce.wav
   RESOURCES audios/attacked.wav
   RESOURCES images/chessmsBack.jpg
-  RESOURCES images/sun.jpg)
+  RESOURCES images/sun.jpg
+  RESOURCES images/chessms2.png
+  RESOURCES audios/backAudio.mp3)
 target_compile_features(appchessms PRIVATE cxx_std_20)
 
 set_target_properties(
