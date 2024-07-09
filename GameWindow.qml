@@ -12,6 +12,10 @@ Window {
         id: chessms
     }
 
+    Chessms_slash {
+        id: chessms_slash
+    }
+
     Flower {
         id: flower
     }
@@ -36,6 +40,7 @@ Window {
             property int chessmsD: 0
             property bool isCtroMoving: false
             property bool isOnland: true
+            property bool isSlash: false
 
             Canvas {
                 id: canvas
@@ -138,6 +143,21 @@ Window {
                     }
                     ctx.drawImage(chessms, chessms.x, chessms.y, chessms.width, chessms.height); //绘制chessms
 
+                    //绘制chessms的斩击
+                    if(ctrollerRect.isSlash == true)
+                    {
+                        if(chessms_slash.index === 4)
+                        {
+                            chessms_slash.index = 0;
+                            ctrollerRect.isSlash = false;
+                        }
+                        else
+                        {
+                            chessms_slash.source = chessms_slash.images[chessms_slash.index];
+                            chessms_slash.index++;
+                            ctx.drawImage(chessms_slash, chessms.x + 50, chessms.y - 20, chessms_slash.width, chessms_slash.height);
+                        }
+                    }
 
                 }
             }
@@ -194,6 +214,13 @@ Window {
                                         chessmsD = 5;
                                     }
                                 }
+
+                                if(event.key === Qt.Key_Space) {
+                                    if(isSlash == false)
+                                    {
+                                        isSlash = true;
+                                    }
+                                }
                             }
         }
 
@@ -203,7 +230,7 @@ Window {
         width: 100
         height: 35
         x: 1300
-        y: 700
+        y: 800
 
         onClicked: {
             //canvas.visible = !canvas.visible;

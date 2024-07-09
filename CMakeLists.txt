@@ -63,7 +63,12 @@ qt_add_qml_module(
   images/sakula_fall26.png
   images/sakula_fall27.png
   images/sakula_fall28.png
-  images/tree.png)
+  images/tree.png
+  images/slash1.png
+  images/slash2.png
+  images/slash3.png
+  images/slash4.png
+  QML_FILES Chessms_slash.qml)
 target_compile_features(appchessms PRIVATE cxx_std_20)
 
 set_target_properties(

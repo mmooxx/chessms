@@ -81,6 +81,7 @@ CMakeFiles/appchessms_qmlimportscan: .qt/qml_imports/appchessms_build.cmake
 .qt/qml_imports/appchessms_build.cmake: /run/media/root/linux/实训/chessms/Tree.qml
 .qt/qml_imports/appchessms_build.cmake: /run/media/root/linux/实训/chessms/Grassland.qml
 .qt/qml_imports/appchessms_build.cmake: /run/media/root/linux/实训/chessms/ctroller.js
+.qt/qml_imports/appchessms_build.cmake: /run/media/root/linux/实训/chessms/Chessms_slash.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for appchessms"
 	cd /run/media/root/linux/实训/chessms && /opt/Qt/6.7.1/gcc_64/libexec/qmlimportscanner @/run/media/root/linux/实训/chessms/build/Desktop_Qt_6_7_1-Debug/.qt/qml_imports/appchessms_build.rsp
 

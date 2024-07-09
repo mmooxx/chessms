@@ -3,6 +3,7 @@
 acabb168802df5d0143bd3c46186ca88 .qt/rcc/qrc_appchessms_raw_qml_0.cpp
 f06f7acb40761fa3f06d5dcebfa0b82a .qt/rcc/qrc_qmake_chessms.cpp
 a6f1b8499580d5f36925efe0a90346f7 .rcc/qmlcache/appchessms_Chessms_qml.cpp
+d914bd1771c6fe3ebba3eda26d2c4963 .rcc/qmlcache/appchessms_Chessms_slash_qml.cpp
 5a57d2c2b5ea567310985dc1ce429194 .rcc/qmlcache/appchessms_Flower_qml.cpp
 e2a84aa1fabf23d59da41e0de7a8c7c1 .rcc/qmlcache/appchessms_GameWindow_qml.cpp
 81bfb321163eaf7deabd42cff5231153 .rcc/qmlcache/appchessms_Grassland_qml.cpp
@@ -23,6 +24,7 @@ a63f3a998b1928af9ae9bbb715fc5f22 CMakeFiles/appchessms_qmllint_json
 046e5f6c519138a96923c1b85588c53a appchessms_autogen/timestamp
 1c4c67287cac140ae417ec2930a6c49b appchessms_qmltyperegistrations.cpp
 e87360e25f72fae736de343826ce412b chessms/Chessms.qml
+5eb9076522947e575594e45a90c2be5c chessms/Chessms_slash.qml
 d930856aa8dbf355a4280d428541c3bf chessms/Flower.qml
 efc4e92328ee75724e6bc9cde7376c32 chessms/GameWindow.qml
 58603edd2c5fa937a29aff174e207f32 chessms/Grassland.qml
@@ -70,6 +72,10 @@ d9d70ef5383cfa8c04c4786ba8c66ccd chessms/images/sakula_fall22.png
 527e6677b70e00f455a10bc0668e3ac8 chessms/images/sakula_fall27.png
 ce051ed2ddfc519e37fff345ecdd0089 chessms/images/sakula_fall28.png
 1b76dc96d379260089904dcbe763e8c2 chessms/images/sakulafall9.png
+7e209839b6ab941a0e8d32b26ed631f7 chessms/images/slash1.png
+0a22c80cab365ff9e8e2adac4d90e482 chessms/images/slash2.png
+de37e2d91f3db879f0e3ee54502dfc92 chessms/images/slash3.png
+534a9b4d47cbc9923aeecd31199f732d chessms/images/slash4.png
 7cc2f0cbe563874781d0ee854b233847 chessms/images/tree.png
 8380fd58f490ab7e4aa9bbb4c7bc0588 chessms/paintCtroller.js
 3e8cf0b6f012588284c8559db6d1a472 chessms/tree.qml

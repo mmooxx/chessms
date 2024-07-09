@@ -7,6 +7,7 @@
     <file alias="Tree.qml">/run/media/root/linux/实训/chessms/Tree.qml</file>
     <file alias="Grassland.qml">/run/media/root/linux/实训/chessms/Grassland.qml</file>
     <file alias="ctroller.js">/run/media/root/linux/实训/chessms/ctroller.js</file>
+    <file alias="Chessms_slash.qml">/run/media/root/linux/实训/chessms/Chessms_slash.qml</file>
     <file alias="images/chessms.png">/run/media/root/linux/实训/chessms/images/chessms.png</file>
     <file alias="images/grassland.png">/run/media/root/linux/实训/chessms/images/grassland.png</file>
     <file alias="images/sakula_fall01.png">/run/media/root/linux/实训/chessms/images/sakula_fall01.png</file>
@@ -38,6 +39,10 @@
     <file alias="images/sakula_fall27.png">/run/media/root/linux/实训/chessms/images/sakula_fall27.png</file>
     <file alias="images/sakula_fall28.png">/run/media/root/linux/实训/chessms/images/sakula_fall28.png</file>
     <file alias="images/tree.png">/run/media/root/linux/实训/chessms/images/tree.png</file>
+    <file alias="images/slash1.png">/run/media/root/linux/实训/chessms/images/slash1.png</file>
+    <file alias="images/slash2.png">/run/media/root/linux/实训/chessms/images/slash2.png</file>
+    <file alias="images/slash3.png">/run/media/root/linux/实训/chessms/images/slash3.png</file>
+    <file alias="images/slash4.png">/run/media/root/linux/实训/chessms/images/slash4.png</file>
   </qresource>
 </RCC>
 

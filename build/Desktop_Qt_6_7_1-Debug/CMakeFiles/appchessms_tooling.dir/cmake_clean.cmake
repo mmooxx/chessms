@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "chessms/Chessms.qml"
+  "chessms/Chessms_slash.qml"
   "chessms/Flower.qml"
   "chessms/GameWindow.qml"
   "chessms/Grassland.qml"
@@ -36,6 +37,10 @@ file(REMOVE_RECURSE
   "chessms/images/sakula_fall26.png"
   "chessms/images/sakula_fall27.png"
   "chessms/images/sakula_fall28.png"
+  "chessms/images/slash1.png"
+  "chessms/images/slash2.png"
+  "chessms/images/slash3.png"
+  "chessms/images/slash4.png"
   "chessms/images/tree.png"
 )
 
