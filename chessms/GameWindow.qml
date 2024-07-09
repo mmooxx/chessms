@@ -191,6 +191,30 @@ Window {
                     }
                     monster.source = monster.images[monster.index];
 
+                    //判断chessms斩击是否击中怪物
+                    if(ctrollerRect.isSlash == true)
+                    {
+                        for(let u = 0; u != 3; u++)
+                        {
+                            //console.log(monsterX[u], chessms.x)
+                            if(monsterY[u] < chessms.y + 150 && monsterY[u] > chessms.y - 50
+                                    && monsterX[u] > chessms.x + 50 && monsterX[u] < chessms.x + 250)
+                            {
+                                //console.log("kk")
+                                monsterY[u] = 920;
+                            }
+                        }
+                    }
+
+                    //判断怪物是否对chessms造成伤害
+                    for(let a = 0; a != 3; a++)
+                    {
+                        if(monsterX[a] === chessms.x + 40 && monsterY[a] < chessms.y + 120 && monsterY[a] > chessms.y - 30)
+                        {
+                            chessms.health--;
+                            console.log(chessms.health)
+                        }
+                    }
 
                     //绘制chessms的斩击(间隔1帧才能再次进行斩击）
                     if(ctrollerRect.isSlash == true)
@@ -206,6 +230,18 @@ Window {
                             chessms_slash.index++;
                             ctx.drawImage(chessms_slash, chessms.x + 50, chessms.y - 20, chessms_slash.width, chessms_slash.height);
                         }
+                    }
+
+                    //chessms跌落生命值变为0
+                    if(chessms.y === 920)
+                    {
+                        chessms.health = 0;
+                    }
+
+                    //chessms生命值为0游戏结束
+                    if(chessms.health == 0)
+                    {
+                        timer.stop();
                     }
 
                 }
